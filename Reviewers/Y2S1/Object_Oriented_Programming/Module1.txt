@@ -1,0 +1,26 @@
+Module 4: Object-Oriented Programming (OOP)
+1. Introduction
+Object-Oriented Programming (OOP) is a programming paradigm based on the concept of "objects," which can contain data and code. Data is represented in the form of fields (attributes), and code is represented in the form of procedures (methods). This approach allows developers to mirror real-world systems, making code more modular, reusable, and easier to maintain. Instead of writing a long list of instructions, OOP encourages organizing code into logical units.
+2. Key Concepts
+
+- Class: A blueprint or template for creating objects. It defines the attributes and behaviors that the objects will have. 
+- Object: An instance of a class. If "Car" is the class, then "Your Blue Sedan" is the object. 
+- Encapsulation: The practice of bundling data and methods into a single unit (the class) and restricting direct access to some of the object's components. This is often achieved using access modifiers like private or public. 
+- Inheritance: A mechanism where one class (subclass) acquires the properties and behaviors of another class (superclass). This promotes code reusability. 
+- Polymorphism: The ability of different classes to be treated as instances of the same class through inheritance. It literally means "many forms," allowing one method name to behave differently depending on the object. 
+- Abstraction: The process of hiding complex implementation details and showing only the essential features of an object.
+3. Examples
+
+- Class vs. Object: 
+  - Class: Character (has attributes like health and mana). 
+  - Object: Warrior, Mage, or Archer. Each has its own specific health and mana values. 
+- Inheritance: In a game like Minecraft , you might have a base class called Mob. Both Zombie and Creeper inherit from Mob. They both have a position and health, but the Creeper has a unique explode() method. 
+- Encapsulation: Think of an ATM. You can use the interface to "Withdraw Money," but you cannot see or change the internal code that calculates the balance directly. The data is hidden for safety. 
+- Polymorphism: A Shape class has a method draw(). When you call draw() on a Circle object, it draws a circle. When you call the same draw() on a Square object, it draws a square.
+4. Summary
+
+- OOP is built on Classes (blueprints) and Objects (instances). 
+- The Four Pillars of OOP are Encapsulation, Inheritance, Polymorphism, and Abstraction. 
+- Inheritance allows us to create a hierarchy and reuse code. 
+- Encapsulation protects data from unintended interference or misuse. 
+- Abstraction simplifies the interaction with complex systems by showing only what is necessary. Multiple Choice Questions 1. Which concept refers to a "blueprint" for creating objects? A. Method B. Attribute C. Class D. Instance Correct Answer: C 2. What is the main purpose of "Inheritance"? A. To hide data from the user. B. To allow a class to use properties and methods of another class. C. To run code faster. D. To delete unused variables automatically. Correct Answer: B 3. "Hiding the internal details and showing only the functionality" describes which pillar? A. Inheritance B. Abstraction C. Polymorphism D. Compilation Correct Answer: B 4. Which of these is an instance of a class? A. Object B. Method C. Variable type D. Loop Correct Answer: A 5. Encapsulation is best described as: A. Connecting to a database. B. Bundling data and methods while restricting direct access. 3. Making a program run on multiple operating systems. D. Inheriting from multiple parents. Correct Answer: B 6. If a "Dog" class and a "Cat" class both inherit from an "Animal" class, "Animal" is the: A. Subclass B. Child class C. Superclass (or Base class) D. Derived class Correct Answer: C 7. Polymorphism allows us to: A. Create objects without classes. B. Use a single interface to represent different underlying forms (data types). C. Protect the source code from being copied. D. Increase the physical RAM of the computer. Correct Answer: B 8. In OOP, "Attributes" are essentially: A. Functions B. Variables/Data C. Loops D. Comments Correct Answer: B 9. Access modifiers like private and public are primarily used to implement: A. Polymorphism B. Inheritance C. Encapsulation D. Recursion Correct Answer: C 10. Which pillar of OOP helps in reducing code redundancy? A. Abstraction B. Inheritance C. Logic Tracing D. Encapsulation Correct Answer: B

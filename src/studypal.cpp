@@ -1,6 +1,8 @@
 //HEADERS:
 #include "../headers/studypal.h"
 #include "../headers/utils.h"
+#include "../headers/module.h"
+#include "../headers/quiz.h"
 #include <iostream>
 #include <fstream>
 #include <string>
@@ -9,7 +11,6 @@
 #include <algorithm>
 using namespace std;
 
-// DATA (placeholder for now)
 static vector<ModuleInfo> default5Modules() {
     return {
         {1, "Module 1"},
@@ -41,14 +42,15 @@ vector<CourseInfo> getCourses(int year, int sem) {
         };
     }
 
-    // (Put Sophomore, Junior, Senior here)
-    // For now empty muna
+
     return {};
 }
 
 // FILE PATH RENAMER (file path validation, just in case some modules have wrong file path name) 
 string reviewerPath(int year, int sem, const string& courseName, int moduleNo) {
-    //  file path format ex. Reviewers/Y1S2/Computer_Programming_2/Module1.txt
+    // !! file path format:Reviewers/Y1S2/Computer_Programming_2/Module1.txt
+    cout << "courseName: " << courseName << endl;
+    cout << "sanitized : " << sanitizeName(courseName) << endl;
     string ys = "Y" + to_string(year) + "S" + to_string(sem);
     return "Reviewers/" + ys + "/" + sanitizeName(courseName) + "/Module" + to_string(moduleNo) + ".txt";
 }
@@ -121,25 +123,6 @@ int selectModule(const CourseInfo& course) {
     return choice;
 }
 
-void printReviewerFromFile(const string& path) {
-    ifstream file(path);
-    if (!file) { // blocks program from continuing
-        cout << "\n[Reviewer not found]\n";
-        cout << "Expected file path:\n" << path << "\n\n"; 
-        return;
-    }
-    string line;
-    cout << "\n========== REVIEWER ==========\n\n";
-    while (getline(file, line)) cout << line << "\n";
-}
-
-// QUIZ CHALLENGE
-struct QuizQ {
-    string q;
-    string opt[4];
-    char ans; 
-};
-
 void flowStartStudying(const User& u) {
     auto courses = getCourses(u.yearLevel, u.semester);
     int cIdx = selectCourse(u, courses);
@@ -160,24 +143,26 @@ void flowStartStudying(const User& u) {
     cout << "\n------------------------------------------------------------\n";
     char ch = readChoiceChar("[Q] Quiz this module  [B] Back : ");
     if (ch == 'Q') {
-    cout << "\nQuiz system coming soon...\n";
-    pauseScreen();
-}
+        string qFile = quizPath(u.yearLevel, u.semester, courses[cIdx].name, moduleNo);
+        runQuiz10(u, courses[cIdx].name, moduleNo, qFile);
+    }
 }
 
 void flowTakeQuiz(const User& u) {
-    clearScreen();
-    cout << "==================== QUIZ FEATURE ====================\n";
-    cout << "This feature is still under development.\n";
-    cout << "Please check back later.\n";
-    cout << "======================================================\n";
-    pauseScreen();
+    auto courses = getCourses(u.yearLevel, u.semester);
+    int cIdx = selectCourse(u, courses);
+    if (cIdx < 0) return;
+
+    int moduleNo = selectModule(courses[cIdx]);
+    if (moduleNo < 0) return;
+
+    string qFile = quizPath(u.yearLevel, u.semester, courses[cIdx].name, moduleNo);
+    runQuiz10(u, courses[cIdx].name, moduleNo, qFile);
 }
 
 void flowViewHistory() {
     clearScreen();
-    cout << "                 [ QUIZ HISTORY ]\n";
-    cout << "------------------------------------------------------------\n";
+    cout << "==================== QUIZ HISTORY ====================\n";
 
     ifstream hist("data/quiz_history.txt");
     if (!hist) {
@@ -188,12 +173,41 @@ void flowViewHistory() {
 
     string line;
     int count = 0;
-    while (getline(hist, line)) {
-        cout << line << "\n";
-        count++;
-    }
-    if (count == 0) cout << "(No records yet)\n";
 
+    while (getline(hist, line)) {
+        if (line.empty()) continue;
+
+        string parts[8];
+        int idx = 0;
+        string cur;
+
+        for (char c : line) {
+            if (c == '|') {
+                if (idx < 8) parts[idx++] = cur;
+                cur.clear();
+            } else {
+                cur += c;
+            }
+        }
+        if (idx < 8) parts[idx++] = cur;
+
+        if (idx == 8) {
+            cout << "Attempt #" << (count + 1) << "\n";
+            cout << "Name   : " << parts[0] << "\n";
+            cout << "Year   : " << parts[1] << "\n";
+            cout << "Sem    : " << parts[2] << "\n";
+            cout << "Course : " << parts[3] << "\n";
+            cout << "Module : " << parts[4] << "\n";
+            cout << "Score  : " << parts[5] << "/" << parts[6] << "\n";
+            cout << "Status : " << parts[7] << "\n";
+            cout << "------------------------------------------------------\n";
+            count++;
+        }
+    }
+
+    if (count == 0) {
+        cout << "No records yet.\n";
+    }
     pauseScreen();
 }
 

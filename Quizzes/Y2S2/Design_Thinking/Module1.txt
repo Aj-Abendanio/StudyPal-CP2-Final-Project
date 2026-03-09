@@ -1,0 +1,10 @@
+What is the first stage of the Design Thinking process?|Prototype|Ideate|Empathize|Define|C
+Why is "Empathy" important in software design?|It makes the code run faster.|It allows developers to understand the actual needs and frustrations of the end-user.|It reduces the cost of server hosting.|It helps in choosing the right programming language.|B
+What is the goal of the "Ideate" phase?|To write the documentation for the project.|To generate a large number of potential solutions.|To fix bugs in the final product.|To interview stakeholders about the budget.|B
+A "Persona" in Design Thinking is:|The lead developer of the team.|A fictional character representing a specific user type.|A type of database encryption.|A programming error.|B
+Which of these is an example of a "Low-Fidelity Prototype"?|A fully functional beta version of an app.|A sketch of the app's interface on a piece of paper.|The final source code on GitHub.|A 3D rendered animation of the product.|B
+The "Define" stage is used to:|Build the final database.|Create a clear problem statement based on user needs.|Test the app for security vulnerabilities.|Recruit new designers.|B
+Why is Design Thinking considered "Non-Linear"?|Because you only move in one direction.|Because you can jump back and forth between stages based on findings.|Because it doesn't involve computers.|Because it is only used by graphic designers.|B
+What does "Fail Fast, Fail Cheap" refer to?|Deleting the project if it doesn't work in one day.|Using prototypes to find errors early before heavy investment.|Hiring the cheapest developers available.|Selling the software for a very low price.|B
+In the "Test" phase, you should:|Tell the user how to use the app.|Observe how the user interacts with the prototype and gather feedback.|Only show the prototype to other developers.|Ignore users who don't like the design.|B
+Design Thinking shifts the focus of development from technology to:|Profit|Humans|Speed|Documentation|B

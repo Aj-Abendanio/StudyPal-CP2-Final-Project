@@ -1,0 +1,10 @@
+Which type of graphic can be scaled infinitely without losing quality?|Raster|Bitmap|Vector|JPEG|C
+What is the smallest unit of a digital image?|Bit|Pixel|Vector|Vertex|B
+The process of converting a 3D scene into a 2D image is called:|Compiling|Debugging|Rendering|Normalizing|C
+Which transformation is used to change the size of an object?|Rotation|Translation|Scaling|Shearing|C
+In the RGB color model, what color is produced by the values (255, 0, 0)?|Green|Blue|Red|White|C
+What does a "Shader" primarily control?|The speed of the internet connection.|How light and shadow interact with surfaces.|The storage capacity of the hard drive.|The number of files in a folder.|B
+Which component is specifically designed to handle the heavy math of computer graphics?|CPU|RAM|GPU (Graphics Processing Unit)|SSD|C
+Moving an object from one position to another without rotating it is called:|Rotation|Scaling|Translation|Reflection|C
+A "PNG" file is an example of which type of graphic?|Vector|Raster|Mathematical|Analytical|B
+What is "Rasterization"?|Converting pixels into mathematical equations.|Converting vector shapes into a grid of pixels for display.|Printing an image onto paper.||B

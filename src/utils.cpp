@@ -44,14 +44,25 @@ char readChoiceChar(const std::string& prompt) {
     }
 }
 
-// name validation
+// for file name validation
 string sanitizeName(const string& s) {
-    string out;
+    string result = "";
+
     for (char c : s) {
-        if (isalnum(static_cast<unsigned char>(c))) out += c;
-        else if (c == ' ' || c == '-' ) out += '_';
+        if (isalnum(static_cast<unsigned char>(c))) {
+            result += c;
+        }
+        else if (c == ' ' || c == '&' || c == '-' || c == '/') {
+            if (!result.empty() && result.back() != '_') {
+                result += '_';
+            }
+        }
     }
-    return out;
+    if (!result.empty() && result.back() == '_') {
+        result.pop_back();
+    }
+
+    return result;
 }
 
 bool fileExists(const string& path) {

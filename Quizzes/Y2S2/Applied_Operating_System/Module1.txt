@@ -1,0 +1,10 @@
+What is the "Kernel" of an operating system?|The user interface where you click icons.|The core part of the OS that manages hardware and memory.|A type of hardware used for storage.|The system used to browse the internet.|B
+What is the difference between a Process and a Thread?|A process is a part of a thread.|A thread is a program in execution, while a process is just code.|A thread is a unit of execution within a process.|There is no difference; they are the same thing.|C
+Which state is a process in when it is waiting to be assigned to a processor?|Running|Terminated|Ready|Blocked|C
+A "Deadlock" occurs when:|The computer runs out of battery.|Two processes are waiting for resources held by each other.|The internet connection is lost.|A program finishes its execution too quickly.|B
+Which scheduling algorithm gives each process a small unit of CPU time (time slice) and then moves to the next process?|First-Come-First-Served (FCFS)|Shortest Job First (SJF)|Round Robin|Priority Scheduling|C
+Virtual Memory is primarily used to:|Make the CPU run faster.|Allow the computer to run larger programs than the physical RAM capacity.|Protect the computer from physical damage.|Clean the hard drive automatically.|B
+How does a user application request a service from the OS kernel?|Through a System Call.|By restarting the computer.|By deleting the system files.|Through an HTML tag.|A
+Which of these is a "Resource" that the OS must manage?|CPU Time|RAM (Memory)|Disk Space|All of the above|D
+What is "GUI"?|General User Integration|Graphical User Interface|Gaming Unit Internal|Global Universal Information|B
+What is "Paging"?|A method of printing documents.|A memory management scheme that eliminates the need for contiguous allocation of physical memory.|Sending a notification to a mobile phone.|Searching for a word in a text file.|B

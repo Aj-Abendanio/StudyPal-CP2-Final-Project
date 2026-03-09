@@ -1,0 +1,28 @@
+Module 5: Information Management & Relational Databases
+1. Introduction
+Information Management is the lifecycle of collecting, storing, managing, and maintaining data to ensure it is accurate, accessible, and secure. In Computer Science, this most commonly involves Relational Database Management Systems (RDBMS) . Instead of storing data in disorganized text files, we use structured tables and relationships to handle massive amounts of information efficiently, which is the backbone of almost every modern web application, bank, and social media platform.
+2. Key Concepts
+
+- Database (DB): A structured collection of data stored electronically. 
+- Relational Database: A type of database that stores data in tables (relations) which are linked based on data common to each. 
+- Schema: The "skeleton" or formal structure of the database, defining the tables, fields, and relationships. 
+- Primary Key (PK): A unique identifier for a record in a table (e.g., a Student ID). It cannot be null and must be unique. 
+- Foreign Key (FK): A field in one table that links to the Primary Key of another table, creating a relationship between them. 
+- Normalization: The process of organizing data to reduce redundancy and improve data integrity (e.g., ensuring a customer's address is only stored in one place). 
+- SQL (Structured Query Language): The standard language used to communicate with and manipulate relational databases.
+3. Examples
+
+- Entity vs. Attribute: If you are building a system for a university, an Entity would be Student. The Attributes would be FirstName, LastName, and Email. 
+- Primary Key: In a Users table, the user_id (usually an auto-incrementing integer like 1, 2, 3...) is the Primary Key. No two users can have the same ID. 
+- Foreign Key Relationship: 
+  - Table Courses has a PK course_id. 
+  - Table Enrollments has an FK course_id. 
+  - This links a specific student's enrollment record to the details of the course they are taking. 
+- SQL Query: To find all students with the last name "Tababan," you would use: SELECT
+- FROM Students WHERE LastName = 'Tababan';
+4. Summary
+
+- Information Management ensures data is consistent, persistent, and secure . 
+- Relational Databases use tables, rows (records), and columns (fields) to organize information. 
+- Keys (Primary and Foreign) are the tools used to maintain unique records and connect different tables. 
+- Normalization is critical for preventing "data anomalies" (errors that occur when data is updated in one place but not another). Multiple Choice Questions 1. What is the primary purpose of a "Primary Key"? A. To encrypt the database. B. To uniquely identify each record in a table. C. To allow multiple users to log in at once. D. To sort the data alphabetically. Correct Answer: B 2. Which of the following is the standard language for managing relational databases? A. Python B. HTML C. SQL D. C++ Correct Answer: C 3. A "Foreign Key" is used to: A. Delete a table. B. Link two tables together. C. Identify the database administrator. D. Speed up the computer's CPU. Correct Answer: B 4. What does "Normalization" help prevent? A. Data redundancy and inconsistency. B. Viruses and Malware. C. High electricity consumption. D. Slow internet speeds. Correct Answer: A 5. In a database table, a "Row" is also known as a: A. Field B. Attribute C. Record D. Schema Correct Answer: C 6. Which SQL command is used to retrieve data from a database? A. GET B. SEARCH C. SELECT D. EXTRACT Correct Answer: C 7. A "Schema" is best described as: A. The physical hard drive where data is stored. B. The logical design or structure of the database. C. A type of computer virus. D. The password used to access data. Correct Answer: B 8. If a column in a table can only contain numbers, this is an example of a: A. Data Constraint B. Primary Key C. Foreign Key D. Table Join Correct Answer: A 9. Which of these is NOT a Relational Database Management System (RDBMS)? A. MySQL B. PostgreSQL C. Microsoft SQL Server D. Notepad++ Correct Answer: D 10. What happens if you try to insert a record with a Primary Key that already exists? A. The database creates a duplicate. B. The database will return an error and reject the entry. C. The computer will restart. D. The old record is automatically deleted. Correct Answer: B

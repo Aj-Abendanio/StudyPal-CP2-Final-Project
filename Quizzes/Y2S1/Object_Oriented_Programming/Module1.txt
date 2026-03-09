@@ -1,0 +1,10 @@
+Which concept refers to a "blueprint" for creating objects?|Method|Attribute|Class|Instance|C
+What is the main purpose of "Inheritance"?|To hide data from the user.|To allow a class to use properties and methods of another class.|To run code faster.|To delete unused variables automatically.|B
+"Hiding the internal details and showing only the functionality" describes which pillar?|Inheritance|Abstraction|Polymorphism|Compilation|B
+Which of these is an instance of a class?|Object|Method|Variable type|Loop|A
+Encapsulation is best described as:|Connecting to a database.|Bundling data and methods while restricting direct access.|Making a program run on multiple operating systems.|Inheriting from multiple parents.|B
+If a "Dog" class and a "Cat" class both inherit from an "Animal" class, "Animal" is the:|Subclass|Child class|Superclass (or Base class)|Derived class|C
+Polymorphism allows us to:|Create objects without classes.|Use a single interface to represent different underlying forms (data types).|Protect the source code from being copied.|Increase the physical RAM of the computer.|B
+In OOP, "Attributes" are essentially:|Functions|Variables/Data|Loops|Comments|B
+Access modifiers like private and public are primarily used to implement:|Polymorphism|Inheritance|Encapsulation|Recursion|C
+Which pillar of OOP helps in reducing code redundancy?|Abstraction|Inheritance|Logic Tracing|Encapsulation|B

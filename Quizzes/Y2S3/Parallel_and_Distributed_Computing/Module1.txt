@@ -1,0 +1,10 @@
+What is the main difference between Parallel and Distributed computing?|Parallel uses one computer; Distributed uses multiple computers.|Distributed is faster; Parallel is more reliable.|Parallel is only for supercomputers.|Distributed does not use a network.|A
+"Doing many things at the exact same time" is the definition of:|Concurrency|Parallelism|Serialization|Encapsulation|B
+In a Distributed Memory system, how do processors share data?|They look at the same RAM chip.|They use Message Passing.|They write to a shared floppy disk.|They cannot share data.|B
+A system that can continue to work even if a node crashes is called:|Scalable|Parallel|Fault Tolerant|Sequential|C
+What is "Horizontal Scaling"?|Buying a faster CPU for your computer.|Adding more computers (nodes) to a network.|Increasing the resolution of your monitor.|Writing more lines of code.|B
+Which problem occurs when two threads try to change a variable simultaneously?|Deadlock|Race Condition|Stack Overflow|Binary Search|B
+Which law is used to calculate the theoretical speedup in latency of the execution of a task at fixed workload?|Moore's Law|Amdahl's Law|Newton's Law|Murphy's Law|B
+In a distributed system, a "Node" refers to:|A single line of code.|An individual computer or processor in the network.|A type of ethernet cable.|A software bug.|B
+Modern web browsers use "Tabs" that run independently. This is an example of:|Low-level assembly.|Concurrent/Parallel processing.|Hardware-only logic.|Linear programming.|B
+Which of the following is a challenge specifically for Distributed Computing?|Network Latency|High CPU heat|Small keyboard size|Monitor brightness|A

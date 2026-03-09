@@ -1,0 +1,10 @@
+Which language is the modern standard for Native Android development?|Swift|Kotlin|PHP|Ruby|B
+What does "Cross-Platform Development" mean?|Building an app that only works on Windows.|Using one codebase to deploy apps to both iOS and Android.|Writing code that only runs on smartwatches.|Designing an app that doesn't need a screen.|B
+In the mobile app lifecycle, what state is the app in when it is visible but the user is not interacting with it (e.g., covered by a dialog)?|Destroyed|Paused|Created|Terminated|B
+Which component represents a single screen in an Android application?|Service|Activity|Broadcast Receiver|Content Provider|B
+Why is "Asynchronous Programming" important in mobile apps?|It makes the text look better.|It allows the app to perform background tasks (like downloading data) without freezing the UI.|It increases the phone's battery capacity.|It prevents the user from clicking buttons.|B
+Which framework is used for Cross-Platform development using the Dart language?|React Native|Flutter|Xamarin|Swift UI|B
+"Responsive Design" in mobile apps refers to:|How fast the app responds to clicks.|The app's ability to adjust its layout for different screen sizes.|The color scheme of the app.|The app's ability to work offline.|B
+What is a "JSON" object typically used for in mobile apps?|Taking photos.|Formatting the text font.|Exchanging data between the mobile app and a web server.|Increasing the CPU clock speed.|C
+Which hardware sensor would an app use to count a user's steps?|Ambient Light Sensor|Accelerometer / Pedometer|Barometer|Magnetometer|B
+What is the official IDE (Integrated Development Environment) for Android development?|Xcode|Visual Studio|Android Studio|PyCharm|C

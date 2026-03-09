@@ -1,0 +1,10 @@
+Which logical connective is true only if both propositions are true?|OR ($\lor$)|NOT ($\neg$)|AND ($\land$)|XOR|C
+In Set Theory, what is the "Intersection" of two sets?|All elements in both sets combined.|Only elements that appear in both sets.|Elements that are in the first set but not the second.|All elements in the universe except those in the sets.|B
+What is a "Proposition" in discrete mathematics?|A command to the computer.|A statement that is either true or false.|A variable that can hold any number.|A type of loop.|B
+Which symbol represents the "Universal Quantifier" (For All)?|$\exists$|$\land$|$\forall$|$\neg$|C
+If Proposition P is True, what is the value of $\neg$P (NOT P)?|True|False|Null|Undefined|B
+Which set operation is most similar to the "OR" logic gate?|Intersection|Complement|Union|Subset|C
+A Truth Table with two input variables (P and Q) will have how many rows of truth values?|2|3|4|8|C
+Which of the following is a "Discrete" object?|The exact temperature in a room.|The number of students in a classroom.|The speed of a moving car.|The height of a tree.|B
+What does the "Exclusive OR" (XOR) operation result in if both inputs are True?|True|False|Both|None of the above|B
+Which field of Computer Science relies most heavily on Discrete Structures?|Graphic Design|Cryptography and Logic Design|Analog Signal Processing|Video Editing|B

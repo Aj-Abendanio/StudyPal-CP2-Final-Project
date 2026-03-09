@@ -1,0 +1,24 @@
+Module 10: Parallel and Distributed Computing
+1. Introduction
+As the physical limits of CPU clock speeds are reached, modern computing relies on doing multiple things at once. Parallel and Distributed Computing explores how to break large problems into smaller parts that can be executed simultaneously. Parallel computing typically happens on a single machine with multiple processors (multi-core), while distributed computing involves multiple autonomous computers linked via a network (clusters or cloud) working toward a common goal.
+2. Key Concepts
+
+- Concurrency: The ability of different parts or units of a program to be executed out-of-order or in partial order, without affecting the final outcome. 
+- Parallelism: The simultaneous execution of multiple tasks. While concurrency is about dealing with lots of things at once, parallelism is about doing lots of things at once. 
+- Nodes: Individual computers in a distributed system that communicate with each other. 
+- Shared Memory: A model where multiple processors can access the same memory space (common in multi-core PCs). 
+- Distributed Memory: A model where each processor has its own private memory and must communicate via "Message Passing." 
+- Scalability: The ability of a system to handle a growing amount of work by adding resources (Vertical scaling = bigger CPU; Horizontal scaling = more computers). 
+- Fault Tolerance: The ability of a distributed system to continue operating even if one or more nodes fail.
+3. Examples
+
+- Multi-core Processing: When you render a 4K video, your software splits the frames across all 8 or 16 cores of your CPU. This is Parallel Computing . 
+- Google Search: When you type a query, the request isn't handled by one computer. It is distributed across thousands of servers worldwide. This is Distributed Computing . 
+- SETI@home: A famous project where millions of home computers worldwide collaborated via the internet to analyze radio signals for signs of extraterrestrial life. 
+- Race Conditions: A common bug in parallel programming where two "threads" try to update the same variable at the exact same time, leading to unpredictable results.
+4. Summary
+
+- Parallelism focuses on speed and performance within a single system. 
+- Distributed Systems focus on reliability, scalability, and resource sharing across networks. 
+- Amdahl's Law is used to predict the maximum improvement to a system when only part of it is improved. 
+- Synchronization is the biggest challenge in these systems—ensuring that data remains consistent when being accessed by multiple sources. Multiple Choice Questions 1. What is the main difference between Parallel and Distributed computing? A. Parallel uses one computer; Distributed uses multiple computers. B. Distributed is faster; Parallel is more reliable. C. Parallel is only for supercomputers. D. Distributed does not use a network. Correct Answer: A 2. "Doing many things at the exact same time" is the definition of: A. Concurrency B. Parallelism C. Serialization D. Encapsulation Correct Answer: B 3. In a Distributed Memory system, how do processors share data? A. They look at the same RAM chip. B. They use Message Passing. C. They write to a shared floppy disk. D. They cannot share data. Correct Answer: B 4. A system that can continue to work even if a node crashes is called: A. Scalable B. Parallel C. Fault Tolerant D. Sequential Correct Answer: C 5. What is "Horizontal Scaling"? A. Buying a faster CPU for your computer. B. Adding more computers (nodes) to a network. C. Increasing the resolution of your monitor. D. Writing more lines of code. Correct Answer: B 6. Which problem occurs when two threads try to change a variable simultaneously? A. Deadlock B. Race Condition C. Stack Overflow D. Binary Search Correct Answer: B 7. Which law is used to calculate the theoretical speedup in latency of the execution of a task at fixed workload? A. Moore's Law B. Amdahl's Law C. Newton's Law D. Murphy's Law Correct Answer: B 8. In a distributed system, a "Node" refers to: A. A single line of code. B. An individual computer or processor in the network. C. A type of ethernet cable. D. A software bug. Correct Answer: B 9. Modern web browsers use "Tabs" that run independently. This is an example of: A. Low-level assembly. B. Concurrent/Parallel processing. C. Hardware-only logic. D. Linear programming. Correct Answer: B 10. Which of the following is a challenge specifically for Distributed Computing? A. Network Latency B. High CPU heat C. Small keyboard size D. Monitor brightness Correct Answer: A

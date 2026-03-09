@@ -1,0 +1,10 @@
+Which part of the CIA Triad ensures that data has not been modified by unauthorized users?|Confidentiality|Integrity|Availability|Accountability|B
+What is the main difference between Authentication and Authorization?|Authentication is about permissions; Authorization is about identity.|Authentication is about identity; Authorization is about permissions.|They are the same thing.|Authorization must happen before Authentication.|B
+Which type of attack involves tricking a person into revealing their password?|Brute Force|Social Engineering|SQL Injection|Denial of Service|B
+In Asymmetric Encryption, if a message is encrypted with a Public Key, it can only be decrypted by:|The same Public Key|A different Public Key|The corresponding Private Key|Any user on the network|C
+What is "Ransomware"?|Software that makes your computer faster.|Malware that encrypts your files and demands payment for the key.|A type of hardware firewall.|A social media platform.|B
+A "Hash Function" is primarily used to ensure:|Confidentiality|Integrity|Availability|Encryption|B
+"Something you know, something you have, and something you are" are the three factors of:|Encryption|Programming|Multi-Factor Authentication|Networking|C
+Which of the following is a "Denial of Service" (DoS) attack targeting?|Confidentiality|Integrity|Availability|Encryption|C
+What does "HTTPS" indicate about a website?|The website is free to use.|The communication between your browser and the server is encrypted.|The website has no viruses.|The website is owned by the government.|B
+A "Trojan Horse" is a type of malware that:|Replicates itself over a network.|Disguises itself as legitimate software.|Fixes broken files on your computer.|Only affects Apple computers.|B

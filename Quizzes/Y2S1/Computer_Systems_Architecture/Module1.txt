@@ -1,0 +1,10 @@
+Which component of the CPU is responsible for performing mathematical calculations?|Control Unit (CU)|Registers|Arithmetic Logic Unit (ALU)|Input/Output Controller|C
+In the Von Neumann architecture, where are both data and instructions stored?|In separate physical chips|In the same memory space|Only in the CPU registers|On the hard drive only|B
+What is the correct order of the basic CPU cycle?|Decode -> Execute -> Fetch|Fetch -> Execute -> Decode|Fetch -> Decode -> Execute|Execute -> Fetch -> Decode|C
+Which part of the memory hierarchy is the fastest but has the smallest capacity?|Main Memory (RAM)|Hard Disk Drive (HDD)|Registers|Solid State Drive (SSD)|C
+What is the primary purpose of the "Control Unit"?|To store long-term data.|To manage and coordinate the activities of all other components.|To perform logical comparisons like "Greater Than."|To provide power to the motherboard.|B
+Which "Bus" is responsible for specifying the physical location of data in memory?|Data Bus|Address Bus|Control Bus|Power Bus|B
+Why is Cache memory used in modern computers?|To increase the total storage capacity of the PC.|To bridge the speed gap between the fast CPU and slower RAM.|To prevent the CPU from getting too hot.|To replace the need for a Hard Drive.|B
+An "Interrupt" is a signal sent to the CPU by:|The ALU|An I/O device or hardware/software event|The Power Supply|The user's monitor only|B
+Which of the following is considered "Volatile" memory?|ROM|RAM|SSD|USB Flash Drive|B
+What does the term "Architecture" refer to in this context?|The physical appearance of the computer case.|The logical design and structure of the computer components.|The software used to design buildings.|The speed of the internet connection.|B

@@ -1,0 +1,25 @@
+Module 14: Computer Graphics and Visual Computing
+1. Introduction
+Computer Graphics and Visual Computing is the field of study that deals with the digital synthesis and manipulation of visual content. This field bridges the gap between mathematical data and human perception. Whether it is the UI of a mobile app, a 3D medical simulation, or a blockbuster video game, visual computing involves the use of algorithms to transform numerical data into pixels on a screen. It covers everything from basic 2D geometry to complex 3D rendering and shading.
+2. Key Concepts
+
+- Pixels and Resolution: A pixel is the smallest controllable element of a digital image. Resolution refers to the density of these pixels (e.g., $1920 \times 1080$). 
+- Raster vs. Vector Graphics:
+- Raster: Images made of a grid of pixels (e.g., JPEG, PNG). They lose quality when scaled up. 
+  - Vector: Images defined by mathematical paths (points, lines, curves). They can be scaled infinitely without losing quality (e.g., SVG). 
+- The Graphics Pipeline: The sequence of steps a computer takes to render a 3D scene onto a 2D screen, involving vertex processing, clipping, and rasterization. 
+- Rendering: The process of generating a final image from a 2D or 3D model by means of computer programs. 
+- Shaders: Small programs that run on the GPU to calculate the color, light, and shadow of pixels or vertices. 
+- Transformation: Mathematical operations (Translation, Rotation, Scaling) used to manipulate objects in a coordinate system.
+3. Examples
+
+- Vector Graphics in UI: Most modern app icons and fonts are Vector-based . This ensures that the icon looks sharp whether it is viewed on a small smartphone screen or a massive 4K monitor. 
+- Transformations in Gaming: When you move a character forward in a game, the engine applies a Translation matrix to the character's coordinates. When the character turns around, a Rotation matrix is applied. 
+- RGB Color Model: Computers represent color by combining Red, Green, and Blue light. For example, $(255, 255, 255)$ in an 8-bit system represents pure White, while $(0, 0, 0)$ represents pure Black. 
+- Rasterization: This is the process of taking a vector-based shape (like a triangle in a 3D model) and converting it into the specific pixels that need to be colored on your monitor.
+4. Summary
+
+- Raster graphics are pixel-dependent, while Vector graphics are mathematically defined. 
+- The Graphics Pipeline is the core process that converts 3D data into the 2D image we see. 
+- Transformations (scaling, rotating, moving) are the primary ways we manipulate visual objects. 
+- Visual Computing is not just about art; it is about the mathematical efficiency of displaying data. Multiple Choice Questions 1. Which type of graphic can be scaled infinitely without losing quality? A. Raster B. Bitmap C. Vector D. JPEG Correct Answer: C 2. What is the smallest unit of a digital image? A. Bit B. Pixel C. Vector D. Vertex Correct Answer: B 3. The process of converting a 3D scene into a 2D image is called: A. Compiling B. Debugging C. Rendering D. Normalizing Correct Answer: C 4. Which transformation is used to change the size of an object? A. Rotation B. Translation C. Scaling D. Shearing Correct Answer: C 5. In the RGB color model, what color is produced by the values (255, 0, 0)? A. Green B. Blue C. Red D. White Correct Answer: C 6. What does a "Shader" primarily control? A. The speed of the internet connection. B. How light and shadow interact with surfaces. C. The storage capacity of the hard drive. D. The number of files in a folder. Correct Answer: B 7. Which component is specifically designed to handle the heavy math of computer graphics? A. CPU B. RAM C. GPU (Graphics Processing Unit) D. SSD Correct Answer: C 8. Moving an object from one position to another without rotating it is called: A. Rotation B. Scaling C. Translation D. Reflection Correct Answer: C 9. A "PNG" file is an example of which type of graphic? A. Vector B. Raster C. Mathematical D. Analytical Correct Answer: B 10. What is "Rasterization"? A. Converting pixels into mathematical equations. B. Converting vector shapes into a grid of pixels for display. C. Printing an image onto paper. Correct Answer: B

@@ -1,0 +1,51 @@
+Module 8: Networking 1 (Cisco CCNA Fundamentals)
+1. Introduction
+Computer Networking is the practice of connecting computers to share resources and exchange data. In this module, we focus on the foundational principles defined by the Cisco CCNA curriculum. Understanding how data travels from a local device across the globe requires a grasp of protocols, addressing, and the hardware that directs traffic. Whether you are accessing a website or sending an instant message, the process relies on a structured layering of tasks known as the OSI Model .
+2. Key Concepts
+
+- OSI Model (Open Systems Interconnection): A conceptual framework of seven layers used to understand network interactions. The layers are: Physical, Data Link, Network, Transport, Session, Presentation, and Application. 
+- TCP/IP Model: The actual protocol suite used on the internet, consisting of four layers: Network Access, Internet, Transport, and Application. 
+- IP Address: A unique numerical label assigned to each device connected to a computer network (e.g., IPv4 like 192.168.1.1 or IPv6). 
+- MAC Address: A permanent, physical address assigned to a Network Interface Card (NIC) by the manufacturer. 
+- Router: A Layer 3 device that forwards data packets between different computer networks. 
+- Switch: A Layer 2 device that connects devices within the same local area network (LAN) and uses MAC addresses to forward data. 
+- Subnetting: The process of dividing a large network into smaller, manageable sub-networks to improve performance and security.
+3. Examples
+
+- The Post Office Analogy:
+- The IP Address is like your home address (where the package needs to go). 
+  - The MAC Address is like your specific Social Security Number (who exactly is receiving it). 
+  - The Router is like the regional sorting facility that decides which city the package should go to next. 
+- Ping Command: When you type ping google.com in your terminal, you are using the ICMP protocol to check if a remote host is reachable. 
+- DHCP (Dynamic Host Configuration Protocol): When you connect to a Starbucks Wi-Fi and your phone automatically gets an IP address, the DHCP server is "leasing" that address to you. 
+- DNS (Domain Name System): The "phonebook" of the internet. It translates a human-readable name like facebook.com into an IP address like 157.240.22.35.
+4. Summary
+
+- The OSI Model serves as the universal language for networking troubleshooting and design. 
+- Switches operate at the Data Link Layer (Layer 2), while Routers operate at the Network Layer (Layer 3). 
+- IPv4 addresses are 32-bit and are running out, which is why the world is transitioning to 128-bit IPv6 . 
+- Protocols like TCP (reliable) and UDP (fast) govern how data is transported across the network. Multiple Choice Questions 1. Which layer of the OSI model is responsible for routing data packets across different networks? A. Layer 1 (Physical) B. Layer 2 (Data Link) C. Layer 3 (Network) D. Layer 4 (Transport) Correct Answer: C 2. What is the primary function of a Switch? A. To connect different networks together. B. To connect devices within a single LAN using MAC addresses. C. To translate domain names into IP addresses. D. To provide a firewall for the network. Correct Answer: B 3. Which protocol is used to automatically assign IP addresses to devices on a network? A. DNS B. HTTP C. DHCP D. FTP Correct Answer: C 4. How many layers are in the standard OSI model? A. 4 B. 5 C. 7 D. 9 Correct Answer: C 5. Which of the following is a valid IPv4 address? A. 192.168.1.256 B. 172.16.254.1 C. 2001:0db8:85a3:0000 D. 10.0.0.1.5 Correct Answer: B 6. What is the main difference between TCP and UDP? A. TCP is faster; UDP is more reliable. B. TCP is connection-oriented and reliable; UDP is connectionless and faster. C. TCP works on Layer 2; UDP works on Layer 3. D. TCP is only for emails; UDP is only for websites. Correct Answer: B 7. Which device acts as the "Gateway" to allow local devices to access the internet? A. Hub B. Switch C. Router D. Repeater Correct Answer: C 8. What does "DNS" stand for? A. Data Network System B. Digital Name Service C. Domain Name System D. Dynamic Node Search Correct Answer: C 9. A MAC address is also known as a: A. Logical Address B. Physical Address C. Routing Address D. Bitwise Address Correct Answer: B 10. Which layer of the OSI model deals with cables, connectors, and electrical signals? A. Application B. Network C. Data Link D. Physical Correct Answer: D
+1. Introduction
+Automata Theory is the study of abstract machines and the computational problems that can be solved using them. It serves as the theoretical backbone for compiler design, pattern matching, and even the way we define what a "computer" can actually do. By stripping away the hardware, we can use mathematical models to prove whether a problem is computable or how much memory an algorithm might require to process a specific type of language.
+2. Key Concepts
+
+- Alphabet ($\Sigma$): A finite, non-empty set of symbols (e.g., $\Sigma = \{0, 1\}$ for binary). 
+- String: A finite sequence of symbols from an alphabet (e.g., 0110). 
+- Language: A set of strings formed from a specific alphabet. 
+- Finite Automata (FA): A simple machine with a finite number of states that transitions between them based on input. It is used for basic pattern matching. 
+- Deterministic Finite Automata (DFA): For every state and input symbol, there is exactly one transition to a next state. 
+- Non-deterministic Finite Automata (NFA): A state can have zero, one, or multiple transitions for the same input symbol. 
+- Regular Expressions (Regex): A algebraic way to describe the languages accepted by Finite Automata. 
+- Context-Free Grammar (CFG): A set of recursive rules used to generate strings in a language, often used to define the syntax of programming languages.
+3. Examples
+
+- DFA in the Real World: A vending machine is a finite state machine. It starts in the "Idle" state. When you insert a coin, it moves to the "Credit Added" state. If you press a button, it moves to "Dispensing" and then back to "Idle." 
+- Pattern Matching (Regex): When a website checks if your email has an @ symbol and a .com, it is using a "Regular Expression." This is an implementation of Automata Theory to see if your string belongs to the "Email" language. 
+- Compilers: When you write code in C++ or Java, the compiler uses a Parser (based on Context-Free Grammars) to check if your brackets { } are balanced and if your syntax follows the rules of the language. 
+- Turing Machines: The most powerful abstract machine. It represents the theoretical limits of what a computer can calculate. If a Turing Machine cannot solve a problem, no modern computer can either.
+4. Summary
+
+- Automata are mathematical models of computation. 
+- Finite Automata are used for simple patterns, while Turing Machines model entire computers. 
+- Regular Languages are the simplest class and are described by Regular Expressions. 
+- Context-Free Languages allow for nested structures (like parentheses in math or code) and are vital for building programming language compilers. Multiple Choice Questions 1. What is the "Alphabet" in Automata Theory? A. The English A-Z only. B. A finite, non-empty set of symbols. C. A type of programming language. D. The memory address of a variable. Correct Answer: B 2. Which of the following has exactly one transition for every state-input pair? A. NFA B. DFA C. CFG D. PDA Correct Answer: B 3. A state machine that can be in multiple states at once for a single input is: A. Deterministic B. Non-deterministic C. Linear D. Compiled Correct Answer: B 4. Which class of language is the simplest in the Chomsky Hierarchy? A. Context-Sensitive B. Recursively Enumerable C. Regular D. Context-Free Correct Answer: C 5. What is used to describe the syntax of programming languages and handle nested structures? A. Regular Expressions B. Context-Free Grammars C. Boolean Logic D. Truth Tables Correct Answer: B 6. In a state transition diagram, what does a double-circle represent? A. The Start State B. A Deadlock C. An Accepting (Final) State D. A Transition Correct Answer: C 7. Which abstract machine is considered the most powerful model of computation? A. Finite Automata B. Pushdown Automata C. Turing Machine D. Vending Machine Correct Answer: C 8. Regular Expressions (Regex) are mathematically equivalent to: A. Finite Automata B. Truth Tables C. SQL Queries D. For Loops Correct Answer: A 9. The empty string is usually represented by which symbol? A. $\Sigma$ B. $\epsilon$ (Epsilon) C. $\Delta$ D. $\Omega$ Correct Answer: B 10. Automata Theory is primarily used in the development of: A. Graphic Cards B. Compilers and Lexical Analyzers C. Hard Drive Cables D. Power Supplies Correct Answer: B

@@ -1,0 +1,10 @@
+What does the term "Immutable" mean in the context of Blockchain?|The data is stored in many places.|The data cannot be changed once it is recorded.|The data is encrypted.|The data is available to everyone.|B
+What is a "Block" in a blockchain?|A type of computer virus.|A collection of transaction data.|A physical storage device.|A specific user on the network.|B
+Which component links one block to the previous block?|A USB cable|A Cryptographic Hash|A username|An IP address|B
+What is a "Smart Contract"?|A legal document signed by a lawyer.|Self-executing code that automatically enforces an agreement.|A password-protected PDF.|A subscription to a streaming service.|B
+"Proof of Work" is an example of a:|Programming language|Consensus Mechanism|Database schema|Operating system|B
+In a "Decentralized" network, who holds the authority?|A single central bank.|The government.|The distributed network of nodes.|A single lead developer.|C
+What happens if a single node in the blockchain is hacked or destroyed?|The entire blockchain is lost.|The network continues to function because the ledger is distributed.|The hacker gains control of all users' money.|The internet shuts down.|B
+Which blockchain platform is most famous for introducing Smart Contracts?|Bitcoin|Ethereum|Litecoin|Dogecoin|B
+What is the "Double Spend" problem?|Spending twice as much money as you have.|The risk that a digital currency can be spent more than once.|Paying two different people at the same time.|A bank charging a double fee.|B
+What is a "Distributed Ledger"?|A book kept in a safe.|A database shared and synchronized across multiple nodes.|A spreadsheet on a single computer.|A list of passwords.|B

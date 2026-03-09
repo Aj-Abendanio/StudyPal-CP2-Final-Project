@@ -1,8 +1,8 @@
+// !! Put better ui for this
 #include "../headers/user.h"
 #include "../headers/utils.h"
 #include <iostream>
 #include <string>
-
 using namespace std;
 
 void inputUserInfo(User& u) {

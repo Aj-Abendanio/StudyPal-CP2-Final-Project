@@ -1,0 +1,25 @@
+Module 6: Advanced Algorithms & Efficiency
+1. Introduction
+While "Data Structures" (Module 1) focus on how we store data, Algorithms focus on the most efficient way to process it. In computer science, an algorithm is not just a solution—it is a specialized tool designed to solve a specific problem under certain constraints. As you move into more advanced coursework, the focus shifts from simply "making it work" to "making it scale," ensuring your code can handle millions of data points without crashing or slowing down.
+2. Key Concepts
+
+- Divide and Conquer: An algorithmic paradigm that breaks a problem into smaller sub-problems, solves them, and combines the results (e.g., Merge Sort). 
+- Sorting Algorithms: Procedures used to rearrange elements in a specific order (Numerical or Lexicographical). 
+- Searching Algorithms: Methods for finding a specific item within a data structure (e.g., Binary Search). 
+- Recursion: A technique where a function calls itself to solve smaller instances of the same problem. 
+- Greedy Algorithm: An approach that makes the locally optimal choice at each step with the hope of finding the global optimum. 
+- Heuristic: A "rule of thumb" or shortcut used to find a "good enough" solution when an exact optimal solution is too slow to calculate.
+3. Examples
+
+- Binary Search ($O(\log n)$): Instead of checking every item (Linear Search), Binary Search cuts the search area in half each time. 
+  - Example: Finding a word in a physical dictionary. You open to the middle, see if your word is before or after that page, and repeat. 
+- Merge Sort: A Divide and Conquer algorithm. It splits an array into halves, sorts them recursively, and then merges them back together. 
+  - Example: Organizing a deck of cards by splitting it into small piles, sorting the piles, and then zipping them back together in order. 
+- Bubble Sort ($O(n^2)$): A simple but inefficient sorting algorithm that repeatedly steps through the list, compares adjacent elements, and swaps them if they are in the wrong order. 
+- Fibonacci Sequence (Recursion): Calculating the $n$-th number by adding the two previous numbers ($F(n) = F(n-1) + F(n-2)$).
+4. Summary
+
+- Efficiency is the core of algorithm design; we aim for lower Big O values. 
+- Binary Search is significantly faster than Linear Search but requires the data to be pre-sorted . 
+- Divide and Conquer is a powerful strategy for breaking down complex problems. 
+- Choosing an algorithm involves a trade-off between simplicity (like Bubble Sort) and performance (like Quick Sort or Merge Sort). Multiple Choice Questions 1. Which searching algorithm requires the list to be sorted before it can be used? A. Linear Search B. Binary Search C. Random Search D. Bubble Search Correct Answer: B 2. What is the Big O time complexity of a standard Binary Search? A. $O(n)$ B. $O(n^2)$ C. $O(\log n)$ D. $O(1)$ Correct Answer: C 3. "Divide and Conquer" is the strategy used by which of the following? A. Bubble Sort B. Merge Sort C. Linear Search D. Selection Sort Correct Answer: B 4. A function that calls itself is known as: A. Iteration B. Encapsulation C. Recursion D. Inheritance Correct Answer: C 5. Which sorting algorithm is known for being very simple to write but inefficient for large datasets ($O(n^2)$)? A. Merge Sort B. Quick Sort C. Bubble Sort D. Heap Sort Correct Answer: C 6. If an algorithm takes the same amount of time regardless of input size, its complexity is: A. $O(n)$ B. $O(n^2)$ C. $O(1)$ D. $O(\log n)$ Correct Answer: C 7. In a "Greedy Algorithm," the computer: A. Tries every single possible combination. B. Makes the best choice at the current moment. C. Guarantees the best possible long-term result. D. Randomly picks a solution. Correct Answer: B 8. What is the main disadvantage of a Recursive algorithm? A. It is impossible to read. B. It can lead to "Stack Overflow" if the recursion is too deep. C. It only works with integers. D. It cannot be used in C++. Correct Answer: B 9. Which of the following is a "Linear Time" complexity? A. $O(1)$ B. $O(\log n)$ C. $O(n)$ D. $O(n^2)$ Correct Answer: C 10. Why is Merge Sort generally preferred over Bubble Sort for large lists? A. It uses less memory. B. It has a much better worst-case time complexity ($O(n \log n)$). C. It is easier to memorize. D. It does not require a CPU. Correct Answer: B

@@ -1,0 +1,24 @@
+Module 1: Introduction to Data Structures and Algorithms
+1. Introduction
+In Computer Science, the efficiency of a software system depends heavily on how data is organized and how it is processed. This module introduces the fundamental relationship between Data Structures —the specialized formats for organizing, processing, retrieving, and storing data—and Algorithms —the step-by-step procedures or formulas for solving a problem. Mastering these concepts is the first step toward writing optimized, scalable code.
+2. Key Concepts
+
+- Data Structure: A systematic way of organizing data in a computer so that it can be used efficiently (e.g., Arrays, Linked Lists, Stacks, Queues). 
+- Algorithm: A finite set of well-defined, computer-implementable instructions, typically to solve a class of specific problems or to perform a computation. 
+- Time Complexity: A measure of the amount of time an algorithm takes to run as a function of the length of the input. It is commonly expressed using Big O Notation . 
+- Space Complexity: The amount of memory space required by an algorithm to execute as a function of the input size. 
+- Abstract Data Type (ADT): A mathematical model for data types where the type is defined by its behavior (operations) from the point of view of a user of the data, rather than its implementation. 
+- Linear Data Structure: A structure where data elements are arranged sequentially or linearly, where each element is attached to its previous and next adjacent elements (e.g., Array). 
+- Non-Linear Data Structure: A structure where data elements are not arranged sequentially, often forming hierarchical relationships (e.g., Trees, Graphs).
+3. Examples
+
+- Array (Linear): Storing a list of student ID numbers in a fixed-size block of memory. Accessing the third element is fast because the computer knows the exact memory address. 
+- Stack (LIFO): The "Undo" feature in a text editor. The last action performed is the first one to be removed or reversed. 
+- Queue (FIFO): A printer spooler. Documents sent to the printer are processed in the order they arrived. 
+- Binary Search (Algorithm): Instead of checking every page in a phonebook from start to finish (Linear Search), you jump to the middle, determine which half the name is in, and repeat. This is significantly faster for large datasets.
+4. Summary
+
+- Data Structures provide the organization , while Algorithms provide the logic . 
+- Efficiency is measured by how much time (Time Complexity) and memory (Space Complexity) a program uses. 
+- Choosing the correct data structure can simplify the algorithm and improve performance. 
+- Common linear structures include Arrays, Stacks, and Queues; common non-linear structures include Trees and Graphs. Multiple Choice Questions 1. Which of the following best defines an algorithm? A. A hardware component of a computer B. A step-by-step procedure for solving a problem C. A way to store data on a hard drive D. A programming language like C++ Correct Answer: B 2. What does "Big O Notation" primarily describe? A. The visual design of the code B. The cost of purchasing software C. The upper bound of an algorithm's running time D. The number of variables in a function Correct Answer: C 3. Which data structure follows the Last-In, First-Out (LIFO) principle? A. Queue B. Array C. Linked List D. Stack Correct Answer: D 4. In a Queue data structure, where is a new element typically inserted? A. At the front B. At the rear C. In the middle D. Randomly Correct Answer: B 5. Which of these is considered a Non-Linear data structure? A. Tree B. Array C. Stack D. Queue Correct Answer: A 6. What is an Abstract Data Type (ADT)? A. A specific coding syntax B. A model that defines data behavior independently of implementation C. A physical storage device D. A type of computer virus Correct Answer: B 7. Space Complexity refers to: A. The physical size of the CPU B. The time it takes to download a file C. The amount of memory an algorithm uses relative to input size D. The distance between nodes in a network Correct Answer: C 8. A "First-In, First-Out" (FIFO) structure is known as a: A. Stack B. Queue C. Tree D. Binary Search Correct Answer: B 9. Which of the following is an advantage of using an Array? A. It can change size dynamically during execution B. It allows for fast, direct access to elements via an index C. It is a non-linear structure D. It uses less memory than any other structure Correct Answer: B 10. If an algorithm's performance remains the same regardless of the input size, it is said to have: A. Linear Time Complexity B. Quadratic Time Complexity C. Constant Time Complexity D. Exponential Time Complexity Correct Answer: C

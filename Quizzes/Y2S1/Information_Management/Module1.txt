@@ -1,0 +1,10 @@
+What is the primary purpose of a "Primary Key"?|To encrypt the database.|To uniquely identify each record in a table.|To allow multiple users to log in at once.|To sort the data alphabetically.|B
+Which of the following is the standard language for managing relational databases?|Python|HTML|SQL|C++|C
+A "Foreign Key" is used to:|Delete a table.|Link two tables together.|Identify the database administrator.|Speed up the computer's CPU.|B
+What does "Normalization" help prevent?|Data redundancy and inconsistency.|Viruses and Malware.|High electricity consumption.|Slow internet speeds.|A
+In a database table, a "Row" is also known as a:|Field|Attribute|Record|Schema|C
+Which SQL command is used to retrieve data from a database?|GET|SEARCH|SELECT|EXTRACT|C
+A "Schema" is best described as:|The physical hard drive where data is stored.|The logical design or structure of the database.|A type of computer virus.|The password used to access data.|B
+If a column in a table can only contain numbers, this is an example of a:|Data Constraint|Primary Key|Foreign Key|Table Join|A
+Which of these is NOT a Relational Database Management System (RDBMS)?|MySQL|PostgreSQL|Microsoft SQL Server|Notepad++|D
+What happens if you try to insert a record with a Primary Key that already exists?|The database creates a duplicate.|The database will return an error and reject the entry.|The computer will restart.|The old record is automatically deleted.|B
