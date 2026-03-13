@@ -4,19 +4,22 @@
 #include <string>
 using namespace std;
 
+// function that prints reviewer contents from txt files
 void printReviewerFromFile(const string& path) {
-    //cout << "TEST TEST TEST\n";
+    // opens txt reviewr file using given path
     ifstream file(path);
+
+    // checks if file not found or failed to open it
     if (!file) {
         cout << "\n[Reviewer not found]\n";
         cout << "Expected file path:\n" << path << "\n\n";
-        cout << "Tip: Check if the file/folder name matches your course/module.\n";
+        cout << "The reviewer for this module may not be available yet.\n";
         return;
     }
 
     string line;
-    cout << "\n========== REVIEWER ==========\n\n";
 
+    // reads each line in the file then prints it
     while (getline(file, line)) {
         cout << line << "\n";
     }

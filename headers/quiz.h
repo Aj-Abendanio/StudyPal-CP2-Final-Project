@@ -5,14 +5,14 @@
 #include "user.h"
 using namespace std;
 
-struct QuizQ {
+typedef struct {
     string q;
     string opt[4];
     char ans;
-};
+} QuizQ; 
 
-QuizQ* loadQuizFile(const std::string& path, int& count);
+QuizQ* loadQuizFile(const string& path, int& count);
 void freeQuizArray(QuizQ* arr);
-int runQuiz10(const User& u, const std::string& courseName, int moduleNo, const std::string& quizFile);
+int runQuiz10(const string& courseName, int moduleNo, const string& quizFile);
 
 #endif

@@ -8,15 +8,15 @@
 #include "quiz.h"
 using namespace std;
 
-struct ModuleInfo {
+typedef struct {
     int number;
     string title;
-};
+} ModuleInfo;
 
-struct CourseInfo {
+typedef struct {
     string name;
     vector<ModuleInfo> modules; // 5 modules every course
-};
+} CourseInfo;
 
 // returns courses for a specific year/course
 vector<CourseInfo> getCourses(int year, int sem);
@@ -28,5 +28,6 @@ void runMainMenu(const User& u);
 void flowStartStudying(const User& u);
 void flowTakeQuiz(const User& u);
 void flowViewHistory();
+void deleteQuizHistoryRecord();
 
 #endif

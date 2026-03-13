@@ -1,0 +1,10 @@
+Which knowledge area studies how software and computation work?|Computer Engineering|Information Systems|Computer Science|Networking|C
+Which field focuses on how computer systems help organizations achieve their goals?|Computer Science|Information Systems|Computer Engineering|Artificial Intelligence|B
+Which knowledge area teaches how to design and develop electrical components used in computers and devices?|Computer Science|Database Systems|Computer Engineering|Information Systems|C
+Which IT department specialization includes CIO, VP of IT, and Project Leaders?|Operations and Training|Development and Programming|Management|Technical Services|C
+Which career role is most closely related to designing and maintaining software systems?|Application Programmer|Computer Operator|Corporate Trainer|Help Desk Specialist|A
+Which certification area focuses on setup and repair of physical computer components?|Database|Hardware|Networking|Application Software|B
+Which certification area includes systems like Windows, Linux, or Red Hat?|Security and Forensics|Operating Systems|Hardware|Database|B
+Which emerging technology uses connected devices that collect and exchange data?|Blockchain|Internet of Things|Virtual Reality|Robotic Process Automation|B
+Which technology processes data near its source for faster performance?|Machine Learning|Edge Computing|Blockchain|Database Systems|B
+Which statement best describes why certifications are important in computing?|They replace the need for experience|They are only useful for students|They verify technical knowledge and help professional advancement|They are only needed for hardware jobs|C

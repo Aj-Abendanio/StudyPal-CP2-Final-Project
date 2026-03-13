@@ -4,11 +4,11 @@
 #include <string>
 using namespace std;
 
-struct User {
+typedef struct {
     string name;
     int yearLevel;
     int semester;
-};
+} User;
 
 void inputUserInfo(User &u);
 
