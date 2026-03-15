@@ -1,0 +1,10 @@
+What is flow of control?|Order of program execution|Program design|Program error|Program memory|A
+Which structure runs statements one after another?|Selection|Sequential|Loop|Conditional|B
+Which structure chooses between paths?|Repetition|Sequential|Selection|Execution|C
+Which statement executes code if condition is true?|if|switch|loop|goto|A
+Which statement provides an alternative path?|if|if-else|switch|break|B
+Which structure tests many conditions?|if ladder|loop|array|function|A
+What does switch compare?|Multiple variables|One expression|Floating numbers|Strings|B
+What prevents switch fall through?|break|stop|exit|continue|A
+Which structure repeats code?|Loop|Switch|Selection|Sequential|A
+What happens if break is missing in switch?|Program stops|Next cases run|Compiler error|Nothing happens|B

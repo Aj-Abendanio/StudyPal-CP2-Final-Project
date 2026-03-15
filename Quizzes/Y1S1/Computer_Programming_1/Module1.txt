@@ -1,0 +1,10 @@
+What is programming?|Writing computer instructions|Designing hardware|Using a mouse|Browsing the internet|A
+What is a program?|A computer game|A set of instructions for a computer|A monitor display|A storage device|B
+What is source code?|Machine language only|Binary code|Human readable program instructions|A hardware component|C
+Which language does the computer directly understand?|Machine language|C++|Python|Java|A
+Which language uses mnemonics like ADD and MOV?|Assembly language|Machine language|Python|HTML|A
+Which type of language is easier for humans to read?|Low level language|Binary language|High level language|Machine code|C
+Which programming paradigm focuses on procedures?|Procedural programming|Object oriented programming|Functional programming|Event driven programming|A
+Which step identifies what a program should do?|Requirement analysis|Coding|Testing|Maintenance|A
+Which step involves fixing errors?|Maintenance|Debugging|Documentation|Design|B
+Which error happens when the program breaks language rules?|Logical error|Run time error|Syntax error|Compilation error|C

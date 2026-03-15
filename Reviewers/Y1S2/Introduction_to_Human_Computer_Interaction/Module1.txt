@@ -1,0 +1,113 @@
+================================================================================
+MODULE 6: INTRODUCTION TO HUMAN-COMPUTER INTERACTION (HCI)
+================================================================================
+
+1. WHAT IS HCI?
+--------------------------------------------------------------------------------
+
+- DEFINITION: A field of study focusing on the design of computer technology and
+  the interaction between humans (users) and computers.
+- ORIGIN: Emerged in the early 1980s as a specialty area of Computer Science.
+- CORE GOAL: To ensure that computer systems are designed for ease of use, 
+  efficiency, and safety while meeting the user's needs.
+
+
+
+2. ROOTS AND RELATED DISCIPLINES
+--------------------------------------------------------------------------------
+
+HCI is a multidisciplinary field that draws from:
+- COGNITIVE SCIENCE: Understanding how humans perceive, learn, and remember.
+- HUMAN FACTORS (ERGONOMICS): The study of human capabilities and limitations 
+  to design efficient, safe, and comfortable systems.
+- COMPUTER SCIENCE: Providing the technology and tools for implementation.
+- DESIGN: Focuses on aesthetics and functional layout.
+- SOCIOLOGY/ANTHROPOLOGY: Studying how technology affects groups and culture.
+
+3. HISTORY OF HCI (KEY MILESTONES)
+--------------------------------------------------------------------------------
+
+- EARLY COMPUTING (1940s-1950s): ENIAC; interaction was via physical switches 
+  and punched cards. Only experts could operate them.
+- IVAN SUTHERLAND (1963): Created SKETCHPAD, the first program to use a 
+  graphical user interface and a light pen.
+- DOUGLAS ENGELBART (1968): "The Mother of All Demos" introduced the computer 
+  mouse, hypertext, and collaborative editing.
+- XEROX PARC (1970s): Developed the ALTO, the first computer to use the 
+  desktop metaphor and a mouse-driven GUI.
+- THE PC REVOLUTION (1980s): Apple Macintosh (1984) brought GUIs to the masses.
+
+4. DON NORMAN'S DESIGN PRINCIPLES
+--------------------------------------------------------------------------------
+
+Don Norman, author of "The Design of Everyday Things," introduced key concepts
+for making interfaces intuitive:
+
+- AFFORDANCES: The perceived and actual properties of an object that determine 
+  how it can be used (e.g., a button "affords" clicking).
+- SIGNIFIERS: Signals that tell users where an action should take place 
+  (e.g., a "Push" sign on a door).
+- MAPPING: The relationship between controls and their effects (e.g., which 
+  switch turns on which light).
+- FEEDBACK: Sending back information to the user about what has been done 
+  (e.g., a loading bar or a clicking sound).
+- CONSTRAINTS: Limits that prevent the user from making errors (e.g., graying 
+  out a menu option that isn't available).
+
+
+
+5. USABILITY AND USER EXPERIENCE (UX)
+--------------------------------------------------------------------------------
+
+- USABILITY: How easy a system is to learn and use. It focuses on 
+  effectiveness, efficiency, and satisfaction.
+- USER EXPERIENCE (UX): A broader term that encompasses all aspects of the 
+  user's interaction with the company, its services, and its products.
+- ISO 9241-11: An international standard that defines usability as the 
+  extent to which a product can be used by specified users to achieve 
+  specified goals.
+
+================================================================================
+3. UTILITY PROGRAMS
+--------------------------------------------------------------------------------
+
+Common utilities included with most operating systems:
+- FILE MANAGER: Performs functions related to file management (copy, delete).
+- SEARCH UTILITY: Attempts to locate files on the computer.
+- IMAGE VIEWER: Allows users to display, copy, and print graphic files.
+- DISK CLEANUP: Searches for and removes unnecessary files.
+- DISK DEFRAGMENTER: Reorganizes files and unused space on the hard disk.
+- BACKUP/RESTORE: Copies selected files to another storage location.
+- SCREEN SAVER: Causes a display device's screen to show a moving image.
+
+4. APPLICATION SOFTWARE
+--------------------------------------------------------------------------------
+
+- DEFINITION: Programs designed to make users more productive or assist them 
+  with personal tasks.
+
+- FOUR MAIN CATEGORIES:
+    1. BUSINESS: Word processing, Spreadsheet, Database, Presentation.
+    2. GRAPHICS & MULTIMEDIA: Desktop publishing, Photo editing, Video/Audio.
+    3. HOME/PERSONAL/EDUCATIONAL: Software for finance, legal, or learning.
+    4. COMMUNICATIONS: Web browsers, E-mail, IM, Blogging, FTP, VoIP.
+
+- FORMS OF SOFTWARE DISTRIBUTION:
+    * PACKAGED: Mass-produced, copyrighted retail software.
+    * CUSTOM: Developed for a specific business or need.
+    * WEB APPLICATION: Software hosted on a website (e.g., Google Docs).
+    * OPEN SOURCE: Provided for use, modification, and redistribution.
+    * SHAREWARE: Distributed free for a trial period.
+    * FREEWARE: Copyrighted software provided at no cost.
+    * PUBLIC-DOMAIN: Donated for public use with no copyright restrictions.
+
+5. LEARNING TOOLS & COMMUNICATIONS
+--------------------------------------------------------------------------------
+
+- ONLINE HELP: Electronic equivalent of a user manual.
+- WEB-BASED HELP: Provides updates and technical resources via the web.
+- WEB-BASED TRAINING (WBT): Computer-based training that uses Internet tech.
+- DISTANCE LEARNING (DL): Education delivery where the instructor and 
+  learner are in different locations.
+
+================================================================================

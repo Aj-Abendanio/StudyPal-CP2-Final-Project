@@ -1,0 +1,10 @@
+Interaction transfers information between?|Human and computer|Computer and printer|Mouse and keyboard|User and internet|A
+Who proposed the interaction framework?|Abowd and Beale|Alan Turing|Bill Gates|Dennis Ritchie|A
+What stage forms the user goal?|Articulation|Presentation|Observation|Performance|A
+What stage processes user input?|Performance|Observation|Presentation|Articulation|A
+What stage displays system output?|Presentation|Performance|Observation|Execution|A
+Which device is an indirect input device?|Mouse|Touchscreen|Microphone|Speaker|A
+Which device allows direct manipulation?|Touchscreen|Mouse|Trackball|Keyboard|A
+Which sensor detects motion?|Accelerometer|Scanner|Speaker|Monitor|A
+Which output provides physical sensation?|Haptic feedback|Visual output|Audio output|Text output|A
+Which technology tracks body movements?|Gesture recognition|Keyboard typing|Mouse tracking|Screen tapping|A

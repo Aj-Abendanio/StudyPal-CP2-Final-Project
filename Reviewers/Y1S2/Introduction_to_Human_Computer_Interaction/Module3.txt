@@ -1,0 +1,82 @@
+Plaintext
+
+================================================================================
+MODULE 3: THE HUMAN (SENSORS, MEMORY, AND COGNITION)
+================================================================================
+
+1. KNOW THY USER
+--------------------------------------------------------------------------------
+
+- THE CORE PHILOSOPHY: To design effective systems, you must understand the 
+  limitations and capabilities of the human being.
+- DESIGN CONSIDERATIONS: Interaction is a triad between the Human Being, the 
+  Computer, and the Task.
+- THE USER IS NOT YOU: Designers must avoid assuming users have the same 
+  technical knowledge or mental models as they do.
+
+2. NEWELL'S TIME SCALE OF ACTION
+--------------------------------------------------------------------------------
+
+Human actions happen across different scales of time:
+- BIOLOGICAL BAND (~1 ms to 10 ms): Neuronal firing and basic brain activity.
+- COGNITIVE BAND (~100 ms to 10 s): Deliberate thought, simple reaction 
+  time (~200ms), and unit tasks.
+- RATIONAL BAND (~minutes to hours): Solving complex problems and planning.
+- SOCIAL BAND (~days to months): Collaborative work and long-term projects.
+
+3. SENSORS AND RESPONDERS (INPUT/OUTPUT)
+--------------------------------------------------------------------------------
+
+Humans interact with the world through specialized systems:
+
+- VISION: The primary source of information. It involves physical reception 
+  (light hitting the eye) and interpretation (processing by the brain).
+- HEARING (AUDITION): Provides information about the environment (distance, 
+  direction, and alerts).
+- TOUCH (HAPTIC): Essential for physical interaction, texture recognition, 
+  and feedback.
+- RESPONDERS: Mainly the motor system (hands, fingers, voice) used to 
+  manipulate the computer via input devices.
+
+4. HUMAN MEMORY SYSTEMS
+--------------------------------------------------------------------------------
+
+
+
+A. SENSORY MEMORY
+- Acts as a buffer for stimuli received through the senses.
+- Iconic memory (visual), Echoic memory (audio), Haptic memory (touch).
+- Information is passed to short-term memory by attention.
+
+B. SHORT-TERM MEMORY (STM) / WORKING MEMORY
+- Scratchpad for temporary recall.
+- CAPACITY: Traditionally 7 ± 2 chunks of information.
+- DECAY: Rapid (typically lasts 10-30 seconds unless rehearsed).
+
+C. LONG-TERM MEMORY (LTM)
+- Repository for all our knowledge; has a seemingly unlimited capacity.
+- STRUCTURE: Episodic (events/experiences) and Semantic (facts/skills).
+- RETRIEVAL PROCESSES:
+    * RECALL: Reproducing information from memory (harder).
+    * RECOGNITION: Identifying information after seeing it again (easier).
+
+5. COGNITION AND LANGUAGE
+--------------------------------------------------------------------------------
+
+- REASONING: Humans use Deductive (logic), Inductive (generalization), and 
+  Abductive (best explanation) reasoning.
+- LANGUAGE: A robust mental faculty. In HCI, we focus on written text.
+- ROBUSTNESS: Humans can understand distorted or incomplete words (e.g., 
+  reading "Aoccdrnig to rscheearch") because we read words as wholes, 
+  not letter by letter.
+
+6. ERRORS AND FORGETTING
+--------------------------------------------------------------------------------
+
+- SLIPS: Right intention, but wrong action (e.g., typos).
+- MISTAKES: Wrong intention due to a faulty mental model.
+- INTERFERENCE:
+    * RETROACTIVE: New information interferes with old memory.
+    * PROACTIVE: Old memory interferes with learning new information.
+
+================================================================================

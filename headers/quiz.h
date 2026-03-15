@@ -2,14 +2,13 @@
 #ifndef QUIZ_H
 #define QUIZ_H
 #include <string>
-#include "user.h"
 using namespace std;
 
 typedef struct {
     string q;
     string opt[4];
     char ans;
-} QuizQ; 
+} QuizQ;
 
 QuizQ* loadQuizFile(const string& path, int& count);
 void freeQuizArray(QuizQ* arr);

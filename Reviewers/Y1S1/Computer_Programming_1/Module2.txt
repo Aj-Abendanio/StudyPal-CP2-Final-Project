@@ -1,0 +1,78 @@
+================================================================================
+MODULE 2: PROGRAM LOGIC DESIGN AND FORMULATION
+================================================================================
+
+1. THE ALGORITHM
+--------------------------------------------------------------------------------
+
+- DEFINITION: A procedure, formula, or step-by-step method for solving a 
+  problem based on conducting a sequence of specified actions.
+- ROLE: It acts as the plan that transforms the problem's INPUT into the 
+  desired OUTPUT.
+- REPRESENTATION: Algorithms are primarily expressed using two tools: 
+  Pseudocode and Flowcharts.
+
+2. INPUT-PROCESS-OUTPUT (IPO) CHART
+--------------------------------------------------------------------------------
+
+Before writing code, programmers use an IPO chart to organize their logic:
+- INPUT: What data is needed from the user? (e.g., radius, age, name).
+- PROCESS: What calculations or steps are required? (e.g., area = pi * r^2).
+- OUTPUT: What information should be displayed? (e.g., "The area is...").
+
+3. PSEUDOCODE
+--------------------------------------------------------------------------------
+
+- DEFINITION: An informal way of programming description that does not require 
+  strict syntax. It uses English-like statements to outline the logic.
+- COMMON KEYWORDS:
+    * BEGIN / START / END
+    * INPUT / ENTER / READ / GET
+    * COMPUTE / CALCULATE / SET
+    * DISPLAY / PRINT / OUTPUT
+
+
+
+4. FLOWCHARTING
+--------------------------------------------------------------------------------
+
+- DEFINITION: A graphical representation of an algorithm using standard symbols 
+  connected by arrows (flow lines).
+- BASIC SYMBOLS:
+    * TERMINAL (Oval): Represents the Start and End of the process.
+    * INPUT/OUTPUT (Parallelogram): Used for entering data or displaying results.
+    * PROCESS (Rectangle): Used for calculations or variable assignments.
+    * DECISION (Diamond): Represents a condition or branch (Yes/No, True/False).
+    * FLOW LINES (Arrows): Indicates the direction of the logic.
+    * CONNECTOR (Small Circle): Links different parts of a flowchart.
+
+
+
+5. PROGRAM CONTROL STRUCTURES
+--------------------------------------------------------------------------------
+
+The logic of a program usually follows one of three patterns:
+- SEQUENCE: Instructions are executed one after another in a straight line.
+- SELECTION (Decision): The program chooses between two or more paths based 
+  on a condition (e.g., If-Else).
+- REPETITION (Looping): The program repeats a set of instructions until a 
+  certain condition is met (e.g., While, For).
+
+
+
+6. LOGIC FORMULATION EXAMPLE (AVERAGE OF TWO NUMBERS)
+--------------------------------------------------------------------------------
+
+PSEUDOCODE:
+    ENTER x, y
+    COMPUTE average = (x + y) / 2
+    DISPLAY average
+
+C++ SOURCE CODE EQUIVALENT:
+    int x, y;
+    float average;
+    cin >> x >> y;
+    average = (x + y) / 2.0;
+    cout << average;
+
+================================================================================

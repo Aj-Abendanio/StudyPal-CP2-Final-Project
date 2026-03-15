@@ -1,0 +1,10 @@
+What is a computer?|A mechanical calculator|An electronic device that processes data|A type of monitor|A storage device|B
+Which stage of the information cycle collects data?|Input|Output|Storage|Processing|A
+Which stage of the information cycle manipulates data?|Input|Processing|Storage|Output|B
+What is raw unprocessed facts called?|Information|Data|Software|Memory|B
+What is processed data called?|Information|Data|Hardware|Signal|A
+Which element refers to physical computer components?|Software|Hardware|Data|Procedures|B
+Which element represents instructions that tell hardware what to do?|Hardware|Software|Data|People|B
+Which element refers to individuals who use or maintain computers?|Procedures|Software|People|Hardware|C
+Which device category includes laptops and smartphones?|Servers|Mobile devices|Mainframes|Supercomputers|B
+Which type of computer handles thousands of users?|Laptop|Mainframe|Tablet|Smartphone|B

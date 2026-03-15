@@ -1,0 +1,10 @@
+What is an algorithm?|A hardware component|A step by step solution to a problem|A type of memory|A programming language|B
+What does IPO stand for?|Input Program Output|Input Process Output|Instruction Process Operation|Internal Program Output|B
+What part of IPO represents calculations?|Input|Output|Process|Storage|C
+What part of IPO represents results?|Input|Process|Output|Algorithm|C
+What is pseudocode?|Strict programming language|Binary instructions|English like program logic|Machine code|C
+Which pseudocode keyword receives data?|DISPLAY|INPUT|COMPUTE|OUTPUT|B
+What does DISPLAY mean in pseudocode?|Store data|Calculate value|Show result|End program|C
+What represents the start and end in flowcharts?|Rectangle|Diamond|Oval|Parallelogram|C
+Which flowchart symbol represents a decision?|Rectangle|Diamond|Circle|Arrow|B
+Which control structure repeats instructions?|Sequence|Selection|Repetition|Execution|C

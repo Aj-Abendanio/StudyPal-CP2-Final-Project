@@ -1,0 +1,10 @@
+What must designers understand to build good systems?|Human capabilities|Computer speed|Programming syntax|Hardware memory|A
+What is the main source of information for humans?|Vision|Touch|Smell|Taste|A
+Which sense detects sound?|Hearing|Vision|Touch|Smell|A
+Which system allows physical interaction?|Motor system|Memory system|Sensor system|Storage system|A
+Which memory stores sensory information briefly?|Sensory memory|Long term memory|Working memory|Permanent memory|A
+What is the capacity of short term memory?|7 ± 2 items|20 items|50 items|Unlimited|A
+What type of memory stores knowledge permanently?|Long term memory|Short term memory|Sensory memory|Cache memory|A
+What retrieves information without cues?|Recall|Recognition|Memory search|Storage|A
+What identifies information when seen again?|Recognition|Recall|Retrieval|Storage|A
+What error happens when the action is wrong but goal is correct?|Slip|Mistake|Failure|Crash|A

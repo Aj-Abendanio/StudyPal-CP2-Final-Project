@@ -1,0 +1,91 @@
+================================================================================
+MODULE 2: INTRODUCTION TO COMPUTER
+================================================================================
+
+1. COMPUTER BASICS AND TERMINOLOGY
+--------------------------------------------------------------------------------
+
+WHAT IS A COMPUTER?
+- An electronic device operating under the control of instructions stored in its
+  own memory[cite: 5].
+- It performs the Information Processing Cycle[cite: 5]:
+    * INPUT: Collects data[cite: 5].
+    * PROCESSING: Manipulates the data[cite: 5].
+    * OUTPUT: Produces information[cite: 5].
+    * STORAGE: Holds data and information for future use[cite: 13].
+
+DATA VS. INFORMATION
+- DATA: Raw, unprocessed, and often meaningless facts (text, numbers, images, 
+  audio, or video)[cite: 38, 44, 48].
+- INFORMATION: Processed data that is meaningful and useful to people[cite: 48].
+- EXAMPLE: A list of items and prices (Data) is processed into a formatted 
+  receipt showing the total due and change (Information)[cite: 6, 8, 10].
+
+--------------------------------------------------------------------------------
+2. EVOLUTION OF COMPUTER SYSTEMS (TIMELINE)
+--------------------------------------------------------------------------------
+
+EARLY CALCULATION TOOLS
+- ABACUS: Beads on rods used for calculation; still used in parts of Asia[cite: 16].
+- SLIDE RULE (1630): Based on Napier's logarithms; used until the 1970s[cite: 17].
+- JACQUARD LOOM (1804): Used punched cards to automate textile patterns[cite: 17].
+- ANALYTICAL ENGINE (1837): Designed by Charles Babbage as the first general-
+  purpose mechanical computer design[cite: 18, 19].
+
+GENERATIONS OF ELECTRONIC COMPUTERS
+- 1ST GEN (1940-1956): Used VACUUM TUBES. Example: UNIVAC (1951), which utilized
+  punched cards for input/output[cite: 21, 23, 24].
+- 2ND GEN (1956-1963): Used TRANSISTORS. These were smaller, faster, and 
+  cheaper than vacuum tubes[cite: 25, 26].
+- 3RD GEN (1964-1971): Introduced INTEGRATED CIRCUITS (IC), further reducing 
+  computer size and increasing speed[cite: 29, 30].
+- 4TH GEN (1972-2010): Leveraged MICROPROCESSORS (CPUs), making personal 
+  computers and laptops possible[cite: 31, 32].
+- 5TH GEN (2010-PRESENT): Focused on ARTIFICIAL INTELLIGENCE (AI)[cite: 33].
+
+--------------------------------------------------------------------------------
+3. ELEMENTS OF A COMPUTER SYSTEM
+--------------------------------------------------------------------------------
+
+A complete system consists of five main elements[cite: 35]:
+
+1. HARDWARE: Physical components (Input devices, Output devices, System Unit, 
+   Storage devices, and Communications devices)[cite: 35, 36].
+2. SOFTWARE (PROGRAMS): Instructions that tell hardware what to do. Includes 
+   System Software (OS/Utilities) and Application Software[cite: 36].
+3. DATA: Raw material transformed into information[cite: 37, 38].
+4. PEOPLE (USERS): Individuals who design, maintain, or use computers[cite: 39, 42].
+5. PROCEDURES: The steps followed to accomplish specific tasks[cite: 42].
+
+--------------------------------------------------------------------------------
+4. CATEGORIES OF COMPUTERS
+--------------------------------------------------------------------------------
+
+- PERSONAL COMPUTERS (PC): Desktop computers (PC or Apple architecture)[cite: 13, 121].
+- MOBILE COMPUTERS/DEVICES: Laptops, Tablets, Smartphones, and E-book 
+  readers[cite: 13, 14, 125].
+- GAME CONSOLES: Devices designed for single or multiplayer video games[cite: 14].
+- SERVERS: Control access to network resources and provide centralized 
+  storage[cite: 14].
+- MAINFRAMES: Powerful computers handling thousands of users simultaneously[cite: 15].
+- SUPERCOMPUTERS: Fastest computers, processing quadrillions of instructions 
+  per second[cite: 15].
+- EMBEDDED COMPUTERS: Special-purpose components in larger products (e.g., 
+  cars, thermostats, or medical devices)[cite: 15].
+
+--------------------------------------------------------------------------------
+5. USER TYPES AND COMPUTER USAGE
+--------------------------------------------------------------------------------
+
+- HOME USER: Focuses on entertainment, communication, and personal finance[cite: 48].
+- SMALL OFFICE/HOME OFFICE (SOHO): Uses e-mail and looks up information[cite: 48].
+- MOBILE USER: Connects to networks while traveling to transfer data[cite: 48].
+- POWER USER: Works with multimedia and industry-specific software[cite: 48].
+- ENTERPRISE USER: Processes high volumes of transactions and internal 
+  communications[cite: 48].
+
+USAGE IN SOCIETY:
+- Computers are vital in Education, Finance, Government, Health Care, Science, 
+  Publishing, Travel, and Manufacturing[cite: 49].
+
+================================================================================

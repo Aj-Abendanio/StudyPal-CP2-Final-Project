@@ -1,0 +1,75 @@
+================================================================================
+MODULE 1: INTRODUCTION TO PROGRAMMING
+================================================================================
+
+1. WHAT IS PROGRAMMING?
+--------------------------------------------------------------------------------
+
+- DEFINITION: A multistep process for creating a program.
+- CORE CONCEPT: It is a way of giving computers instructions about what they 
+  should do next. These instructions are known as CODE.
+- PROGRAM: A set of instructions that tells the computer how to perform a 
+  specific task.
+- SOURCE CODE: The list of human-readable instructions written by a programmer 
+  using a programming language.
+
+2. PROGRAMMING LANGUAGES: LEVELS AND TYPES
+--------------------------------------------------------------------------------
+
+A. LOW-LEVEL LANGUAGES (HARDWARE-ORIENTED)
+- MACHINE LANGUAGE: The only language a computer directly understands (Binary).
+- ASSEMBLY LANGUAGE: Uses mnemonics (short abbreviations like ADD or MOV) to 
+  represent machine instructions. Requires an ASSEMBLER to translate.
+
+B. HIGH-LEVEL LANGUAGES (HUMAN-ORIENTED)
+- Languages like C++, Java, and Python that use English-like words. They are 
+  easier to read and write but require a COMPILER or INTERPRETER to run.
+
+
+
+C. PROGRAMMING PARADIGMS
+- PROCEDURAL: Focuses on a sequence of steps or procedures to follow (e.g., C).
+- OBJECT-ORIENTED (OOP): Focuses on "objects" that contain both data and 
+  functions (e.g., C++, Java).
+
+3. THE PROGRAM DEVELOPMENT CYCLE
+--------------------------------------------------------------------------------
+
+The systematic approach to creating software involves these key steps:
+
+1. REQUIREMENT ANALYSIS: Defining the problem and what the program must do.
+2. DESIGN: Planning the logic using tools like Flowcharts or Pseudocode.
+3. CODING: Writing the actual source code in a programming language.
+4. TESTING & DEBUGGING: Finding and fixing errors.
+5. DOCUMENTATION: Writing manuals and technical details for the program.
+6. MAINTENANCE: Updating the program to fix new bugs or add features.
+
+
+
+[Image of the software development life cycle steps]
+
+
+4. TYPES OF PROGRAMMING ERRORS
+--------------------------------------------------------------------------------
+
+- SYNTAX ERROR: Occurs when you break the rules of the language (e.g., a 
+  missing semicolon). The program will not compile.
+- RUN-TIME ERROR: Occurs while the program is running (e.g., dividing by zero). 
+  The program crashes.
+- LOGICAL ERROR: The program runs without crashing but produces the wrong 
+  result because the math or logic is incorrect.
+
+5. C++ BASICS
+--------------------------------------------------------------------------------
+
+- C++ is a powerful, high-level, object-oriented language developed by Bjarne 
+  Stroustrup.
+- COMPILATION PROCESS:
+    1. SOURCE CODE (.cpp) -> Written by programmer.
+    2. PREPROCESSOR -> Handles #directives.
+    3. COMPILER -> Translates code to Object Code (.obj).
+    4. LINKER -> Combines object code with libraries to create Executable (.exe).
+
+
+
+================================================================================

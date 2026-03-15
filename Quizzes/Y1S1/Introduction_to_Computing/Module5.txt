@@ -1,0 +1,10 @@
+What is system software?|Programs controlling hardware|Games|Documents|Images|A
+Which program coordinates hardware resources?|Operating System|Browser|Spreadsheet|Editor|A
+What type of software performs maintenance tasks?|Utility Programs|Drivers|Applications|Firmware|A
+Which OS function starts the computer?|Booting|Processing|Compiling|Rendering|A
+Which OS function manages programs and memory?|Device management|Memory management|File storage|Networking|B
+Which OS interface uses graphics?|GUI|CLI|BIOS|Shell|A
+Which utility removes unnecessary files?|Disk Cleanup|File Manager|Backup Tool|Search Utility|A
+Which utility reorganizes disk files?|Disk Cleanup|Disk Defragmenter|Backup Tool|Search Utility|B
+What type of software helps users perform tasks?|Application software|Utility software|System software|Firmware|A
+Which software category includes word processors?|Business software|System software|Utility software|Drivers|A

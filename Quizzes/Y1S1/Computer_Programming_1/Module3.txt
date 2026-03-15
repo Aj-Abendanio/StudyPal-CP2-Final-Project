@@ -1,0 +1,10 @@
+Who developed C++?|Dennis Ritchie|Bjarne Stroustrup|James Gosling|Guido van Rossum|B
+What type of language is C++?|Low level|High level|Middle level|Assembly|C
+What is the entry point of a C++ program?|start()|run()|main()|begin()|C
+Which directive includes libraries?|#include|#define|#main|#link|A
+What does return 0; indicate?|Program error|Program finished successfully|Loop started|Function skipped|B
+Which data type stores whole numbers?|float|string|int|char|C
+Which data type stores decimal numbers?|int|float|char|bool|B
+Which operator finds remainder?|/|%|*|+|B
+Which operator means "not equal"?|==|!=|>=|<=|B
+What does && mean?|Logical OR|Logical AND|Logical NOT|Equality|B

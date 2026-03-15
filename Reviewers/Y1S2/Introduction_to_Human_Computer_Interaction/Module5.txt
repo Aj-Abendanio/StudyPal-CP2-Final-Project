@@ -1,0 +1,74 @@
+================================================================================
+MODULE 5: DESIGNING FOR ERRORS
+================================================================================
+
+1. HUMAN CAPABILITIES AND LIMITATIONS
+--------------------------------------------------------------------------------
+
+- THE HUMAN ELEMENT: As humans, we see, hear, touch, and taste—but always with 
+  physical and sensory limitations.
+- COGNITIVE PROCESSES: We remember, learn, and solve problems, but we also 
+  forget and make mistakes due to cognitive load or interference.
+- HCI GOAL: Design systems that account for these limitations to minimize the 
+  frequency and impact of human error.
+
+2. MISTAKES VS. SLIPS (COGNITIVE ERRORS)
+--------------------------------------------------------------------------------
+
+Human errors are categorized based on the intention behind the action:
+
+A. MISTAKES (KNOWLEDGE-BASED)
+- DEFINITION: The person has the wrong goal or a faulty mental model.
+- CAUSE: Incorrect reasoning or lack of information.
+- EXAMPLE: Thinking a file is saved automatically and closing the program 
+  without clicking "Save."
+
+B. SLIPS (ACTION-BASED)
+- DEFINITION: The person has the right goal, but the execution of the action 
+  is incorrect.
+- CAUSE: Lack of attention, distraction, or poor motor control.
+- EXAMPLE: Intending to click "Save" but accidentally clicking "Delete."
+
+
+
+3. TYPES OF SLIPS (NON-COGNITIVE ERRORS)
+--------------------------------------------------------------------------------
+
+- CAPTURE ERRORS: A frequently performed action "captures" a similar but 
+  intended action (e.g., driving to work on a Saturday instead of the store).
+- DESCRIPTION ERRORS: Performing the right action on the wrong object because 
+  the two objects look similar (e.g., putting the lid of a juice bottle on 
+  a milk carton).
+- DATA-DRIVEN ERRORS: Automatic sensory data interferes with an action (e.g., 
+  typing a number you hear while trying to type a different number).
+- LOSS-OF-ACTIVATION ERRORS: Forgetting what you intended to do in the middle 
+  of the action (e.g., walking into a room and forgetting why).
+- MODE ERRORS: Occur when a device has different states where the same action 
+  has different effects (e.g., typing while "Caps Lock" is accidentally on).
+
+4. DESIGNING FOR ERROR PREVENTION
+--------------------------------------------------------------------------------
+
+- VISIBILITY: Make the state of the system clear so users don't make mode 
+  errors.
+- FORCING FUNCTIONS: Physical or logical constraints that make it impossible 
+  to perform an error (e.g., a car that won't start unless it's in "Park").
+- CONFIRMATION DIALOGS: Asking "Are you sure?" before a destructive action 
+  (though users often click through these reflexively).
+- UNDO/REDO: Providing a safety net that allows users to recover easily from 
+  slips without losing work.
+
+
+
+5. ERROR MESSAGES AND RECOVERY
+--------------------------------------------------------------------------------
+
+- AVOID BLAME: Don't use "User Error" or "Invalid Input." Use polite, helpful 
+  language.
+- BE SPECIFIC: Tell the user exactly what went wrong and how to fix it.
+- MINIMIZE WORK: If an error occurs in a long form, don't clear the entire 
+  form; only highlight the field that needs correction.
+- CONTEXTUAL HELP: Provide tooltips or balloon notifications near the source 
+  of the error.
+
+================================================================================

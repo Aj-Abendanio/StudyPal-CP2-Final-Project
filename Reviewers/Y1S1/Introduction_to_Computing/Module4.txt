@@ -1,0 +1,68 @@
+================================================================================
+MODULE 4: NUMBER SYSTEMS
+================================================================================
+
+1. INTRODUCTION TO NUMBER SYSTEMS
+--------------------------------------------------------------------------------
+
+- DEFINITION: A way to represent numbers using a specific set of symbols.
+- RADIX (BASE): The total number of unique symbols available in a system.
+- MAGNITUDE: The largest symbol value is always "Radix - 1".
+- WHY STUDY IT?: Computers operate in two states (on/off), making Binary their 
+  true language. Understanding number systems explains how computers perform 
+  internal computations.
+
+2. COMMON NUMBER SYSTEMS
+--------------------------------------------------------------------------------
+
+- BINARY (Base 2): Uses digits 0 and 1.
+- OCTAL (Base 8): Uses digits 0 through 7.
+- DECIMAL (Base 10): Uses digits 0 through 9 (Human standard).
+- HEXADECIMAL (Base 16): Uses digits 0-9 and letters A-F.
+    * A=10, B=11, C=12, D=13, E=14, F=15.
+
+3. NUMBER SYSTEM CONVERSION
+--------------------------------------------------------------------------------
+
+ANY BASE TO DECIMAL:
+- Use the "Sum of Expansion" method. Multiply each digit by the base raised 
+  to the power of its position index (starting from 0 on the right).
+
+DECIMAL TO ANY BASE:
+- Use "Successive Division." Divide the decimal number by the target base 
+  repeatedly and record the remainders. Read remainders from bottom to top.
+
+BINARY TO OCTAL / HEXADECIMAL:
+- TO OCTAL: Group binary bits into sets of 3 (from right to left).
+- TO HEXADECIMAL: Group binary bits into sets of 4 (from right to left).
+
+4. BINARY ARITHMETIC
+--------------------------------------------------------------------------------
+
+BINARY ADDITION RULES:
+- 0 + 0 = 0
+- 0 + 1 = 1
+- 1 + 0 = 1
+- 1 + 1 = 0 (Carry 1 to the next column)
+- 1 + 1 + 1 = 1 (Carry 1 to the next column)
+
+BINARY SUBTRACTION RULES:
+- 0 - 0 = 0
+- 1 - 0 = 1
+- 1 - 1 = 0
+- 0 - 1 = 1 (Borrow 1 from the next higher significant digit)
+
+5. OCTAL AND HEXADECIMAL ARITHMETIC
+--------------------------------------------------------------------------------
+
+OCTAL OPERATIONS:
+- Follows decimal rules, but carries/borrows are based on 8 instead of 10.
+- If a sum is 8 or more, divide by 8: Quotient is the Carry, Remainder is the 
+  sum digit.
+
+HEXADECIMAL OPERATIONS:
+- Follows decimal rules, but carries/borrows are based on 16.
+- Remember to convert letters (A-F) to their decimal values (10-15) during 
+  calculation, then back to Hex for the final result.
+
+================================================================================

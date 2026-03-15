@@ -1,0 +1,75 @@
+================================================================================
+MODULE 5: SOFTWARE
+================================================================================
+
+1. SYSTEM SOFTWARE
+--------------------------------------------------------------------------------
+
+- DEFINITION: Programs that control or maintain the operations of the computer 
+  and its devices. It serves as the interface between the user, the application 
+  software, and the computer's hardware.
+- TWO TYPES OF SYSTEM SOFTWARE:
+    1. OPERATING SYSTEM (OS): A set of programs that coordinates all activities 
+       among computer hardware resources.
+    2. UTILITY PROGRAMS: Allows a user to perform maintenance-type tasks 
+       usually related to managing a computer, its devices, or its programs.
+
+2. OPERATING SYSTEMS (OS)
+--------------------------------------------------------------------------------
+
+- FUNCTIONS OF AN OS:
+    * Start and shut down a computer (Booting).
+    * Provide a User Interface (GUI or Command Line).
+    * Manage programs and memory.
+    * Coordinate tasks and configure devices (via Drivers).
+    * Establish Internet connections and monitor performance.
+    * Provide file management and security (User accounts/passwords).
+
+- TYPES OF OPERATING SYSTEMS:
+    * STAND-ALONE: Windows, Mac OS, UNIX, Linux.
+    * SERVER: Windows Server, Solaris, NetWare.
+    * EMBEDDED: Windows Embedded CE, iPhone OS, BlackBerry.
+
+3. UTILITY PROGRAMS
+--------------------------------------------------------------------------------
+
+Common utilities included with most operating systems:
+- FILE MANAGER: Performs functions related to file management (copy, delete).
+- SEARCH UTILITY: Attempts to locate files on the computer.
+- IMAGE VIEWER: Allows users to display, copy, and print graphic files.
+- DISK CLEANUP: Searches for and removes unnecessary files.
+- DISK DEFRAGMENTER: Reorganizes files and unused space on the hard disk.
+- BACKUP/RESTORE: Copies selected files to another storage location.
+- SCREEN SAVER: Causes a display device's screen to show a moving image.
+
+4. APPLICATION SOFTWARE
+--------------------------------------------------------------------------------
+
+- DEFINITION: Programs designed to make users more productive or assist them 
+  with personal tasks.
+
+- FOUR MAIN CATEGORIES:
+    1. BUSINESS: Word processing, Spreadsheet, Database, Presentation.
+    2. GRAPHICS & MULTIMEDIA: Desktop publishing, Photo editing, Video/Audio.
+    3. HOME/PERSONAL/EDUCATIONAL: Software for finance, legal, or learning.
+    4. COMMUNICATIONS: Web browsers, E-mail, IM, Blogging, FTP, VoIP.
+
+- FORMS OF SOFTWARE DISTRIBUTION:
+    * PACKAGED: Mass-produced, copyrighted retail software.
+    * CUSTOM: Developed for a specific business or need.
+    * WEB APPLICATION: Software hosted on a website (e.g., Google Docs).
+    * OPEN SOURCE: Provided for use, modification, and redistribution.
+    * SHAREWARE: Distributed free for a trial period.
+    * FREEWARE: Copyrighted software provided at no cost.
+    * PUBLIC-DOMAIN: Donated for public use with no copyright restrictions.
+
+5. LEARNING TOOLS & COMMUNICATIONS
+--------------------------------------------------------------------------------
+
+- ONLINE HELP: Electronic equivalent of a user manual.
+- WEB-BASED HELP: Provides updates and technical resources via the web.
+- WEB-BASED TRAINING (WBT): Computer-based training that uses Internet tech.
+- DISTANCE LEARNING (DL): Education delivery where the instructor and 
+  learner are in different locations.
+
+================================================================================

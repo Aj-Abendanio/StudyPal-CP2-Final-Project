@@ -1,0 +1,67 @@
+================================================================================
+MODULE 2: NORMAN'S DESIGN PRINCIPLES
+================================================================================
+
+1. THE PSYCHOLOGY OF EVERYDAY THINGS
+--------------------------------------------------------------------------------
+
+- GOOD DESIGN: Practical, easy to use, and self-explanatory. It requires no 
+  extra labels or complex manuals.
+- BAD DESIGN: Confusing, prone to errors, and frustrating for the user. Often 
+  referred to as "Norman Doors" (doors that you pull when they look like they 
+  should be pushed).
+
+2. SIX CORE DESIGN CONCEPTS
+--------------------------------------------------------------------------------
+
+Donald Norman identified six fundamental principles that determine how well a 
+user can interact with a product:
+
+A. VISIBILITY
+- Can the user see the current state of the device and the available actions?
+- When functions are "hidden," users struggle to find them.
+- QUESTION: "Can I see it?"
+
+B. FEEDBACK
+- Providing information back to the user about what action has been done and 
+  what has been accomplished.
+- Examples: A sound when a button is pressed, a progress bar, or a light.
+- QUESTION: "What is it doing now?"
+
+
+
+C. CONSTRAINTS
+- Restricting the kinds of user interaction that can take place at a given 
+  moment to prevent errors.
+- Types: Physical (size/shape), Logical (reasoning), and Cultural (symbols).
+- QUESTION: "Why can't I do that?"
+
+D. MAPPING
+- The relationship between controls and their effects in the world.
+- Natural mapping takes advantage of physical analogies or cultural standards 
+  (e.g., moving a slider up to increase volume).
+- QUESTION: "Where am I and where can I go?"
+
+
+
+E. CONSISTENCY
+- Designing interfaces to have similar operations and use similar elements for 
+  achieving similar tasks.
+- Helps users transfer knowledge from one application or device to another.
+- QUESTION: "I think I have seen this before?"
+
+F. AFFORDANCES
+- The attributes of an object that allow people to know how to use it.
+- A chair "affords" sitting; a glass "affords" transparency; a handle 
+  "affords" pulling.
+- QUESTION: "How do I use it?"
+
+3. CONCEPTUAL MODELS
+--------------------------------------------------------------------------------
+
+- MENTAL MODEL: The user's internal understanding of how a system works based 
+  on their prior experience and the cues provided by the system.
+- DESIGN MODEL: The designer's mental model of how the system should work.
+- SYSTEM IMAGE: What the user actually sees (the physical product, manuals).
+- GOAL: The Design Model and the User's Mental Model should match through 
+  a clear System Image.

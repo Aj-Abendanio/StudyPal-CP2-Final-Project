@@ -1,0 +1,10 @@
+What is a number system?|A method to store files|A way to represent numbers|A type of processor|A computer program|B
+What does radix mean?|Largest number|Number of symbols in a system|Binary value|Decimal value|B
+Which number system uses 0 and 1?|Binary|Decimal|Octal|Hexadecimal|A
+Which number system do humans normally use?|Binary|Octal|Decimal|Hexadecimal|C
+Which number system uses digits 0-7?|Octal|Binary|Decimal|Hexadecimal|A
+Which number system uses A-F?|Binary|Octal|Hexadecimal|Decimal|C
+How many symbols exist in hexadecimal?|10|8|16|2|C
+Which method converts decimal to another base?|Successive division|Binary grouping|Expansion sum|Multiplication|A
+How many bits are grouped for hexadecimal?|2|3|4|5|C
+What happens in binary addition 1+1?|1|0 carry 1|2|1 carry 2|B

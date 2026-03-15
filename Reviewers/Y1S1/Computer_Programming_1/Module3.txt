@@ -1,0 +1,71 @@
+================================================================================
+MODULE 3: INTRODUCTION TO C++ PROGRAMMING
+================================================================================
+
+1. C++ OVERVIEW AND HISTORY
+--------------------------------------------------------------------------------
+
+- DEFINITION: C++ is a statically typed, compiled, general-purpose, case-
+  sensitive, free-form programming language.
+- MIDDLE-LEVEL LANGUAGE: It is regarded as a middle-level language because it 
+  comprises a combination of both high-level and low-level language features.
+- HISTORY: Developed by Bjarne Stroustrup starting in 1979 at Bell Labs. It was 
+  originally called "C with Classes" before being renamed C++ in 1983.
+
+2. STRUCTURE OF A C++ PROGRAM
+--------------------------------------------------------------------------------
+
+A standard C++ program consists of the following parts:
+- PREPROCESSOR DIRECTIVES: Lines starting with # (e.g., #include <iostream>) 
+  that instruct the compiler to include necessary libraries.
+- MAIN FUNCTION: int main() { ... } is the entry point where execution begins.
+- VARIABLE DECLARATIONS: Defining the data types and names of data to be used.
+- STATEMENTS & EXPRESSIONS: The actual logic and instructions.
+- RETURN STATEMENT: return 0; indicates that the program finished successfully.
+
+
+
+3. C++ DATA TYPES
+--------------------------------------------------------------------------------
+
+Data types specify the size and type of values that variables can store:
+- int: For integers (whole numbers, e.g., 10, -5).
+- float / double: For floating-point numbers (decimals, e.g., 3.14).
+- char: For single characters (e.g., 'A', '$').
+- string: For sequences of characters (e.g., "Hello World").
+- bool: For boolean values (true or false).
+
+4. OPERATORS IN C++
+--------------------------------------------------------------------------------
+
+Operators are symbols that tell the compiler to perform specific mathematical 
+or logical manipulations.
+
+A. ARITHMETIC OPERATORS:
+- +, -, *, / (Addition, Subtraction, Multiplication, Division)
+- % (Modulus): Returns the remainder of a division (e.g., 5 % 2 = 1).
+
+B. RELATIONAL OPERATORS (Returns True/False):
+- == (Equal to), != (Not equal to)
+- >, < (Greater than, Less than)
+- >=, <= (Greater than or equal to, Less than or equal to)
+
+C. LOGICAL OPERATORS:
+- && (Logical AND): True if both conditions are true.
+- || (Logical OR): True if at least one condition is true.
+- ! (Logical NOT): Reverses the logical state.
+
+D. BITWISE OPERATORS:
+- Operations performed on the bit level (&, |, ^, ~, <<, >>).
+
+5. THE TERNARY OPERATOR (CONDITIONAL EXPRESSION)
+--------------------------------------------------------------------------------
+
+- FORMAT: Exp1 ? Exp2 : Exp3;
+- HOW IT WORKS: If Exp1 is true, then the value of the whole expression is 
+  Exp2. If Exp1 is false, the value is Exp3.
+- EXAMPLE: int result = (5 > 3) ? 10 : 20; // result will be 10.
+
+
+
+================================================================================

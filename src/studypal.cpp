@@ -216,6 +216,90 @@ void flowTakeQuiz(const User& u) {
     runQuiz10(courses[cIdx].name, moduleNo, qFile);
 }
 
+// loads quiz history from file into a linked list
+HistoryNode* loadQuizHistory() {
+    ifstream hist("data/quiz_history.txt");
+    if (!hist) return nullptr;
+
+    HistoryNode* head = nullptr;
+    HistoryNode* tail = nullptr;
+
+    string line;
+
+    while (getline(hist, line)) {
+        if (line.empty()) continue;
+
+        string parts[5];
+        int idx = 0;
+        string cur;
+
+        for (char c : line) {
+            if (c == '|') {
+                if (idx < 5) parts[idx++] = cur;
+                cur.clear();
+            } else {
+                cur += c;
+            }
+        }
+        if (idx < 5) parts[idx++] = cur;
+
+        if (idx == 5) {
+            HistoryNode* newNode = new HistoryNode;
+            newNode->course = parts[0];
+            newNode->module = stoi(parts[1]);
+            newNode->score = stoi(parts[2]);
+            newNode->total = stoi(parts[3]);
+            newNode->status = parts[4];
+            newNode->next = nullptr;
+
+            if (head == nullptr) {
+                head = newNode;
+                tail = newNode;
+            } else {
+                tail->next = newNode;
+                tail = newNode;
+            }
+        }
+    }
+
+    hist.close();
+    return head;
+}
+
+// displays the quiz history by traversing the linked list
+void displayQuizHistory(HistoryNode* head) {
+    if (head == nullptr) {
+        cout << "|   No quiz history yet.                                      |\n";
+        return;
+    }
+
+    int count = 1;
+    HistoryNode* current = head;
+
+    while (current != nullptr) {
+        cout << "|   Attempt #" << count << "\n";
+        cout << "|   Course : " << current->course << "\n";
+        cout << "|   Module : " << current->module << "\n";
+        cout << "|   Score  : " << current->score << "/" << current->total << "\n";
+        cout << "|   Status : " << current->status << "\n";
+        cout << "|--------------------------------------------------------------\n";
+
+        current = current->next;
+        count++;
+    }
+}
+
+// frees the entire linked list
+void freeQuizHistory(HistoryNode* head) {
+    HistoryNode* current = head;
+
+    while (current != nullptr) {
+        HistoryNode* temp = current;
+        current = current->next;
+        delete temp;
+    }
+}
+
 // quiz history menu (view history / delete record / back)
 void flowViewHistory() {
     string errorMessage = "";
@@ -246,51 +330,11 @@ void flowViewHistory() {
             printIntro();
             cout << "                    [ YOUR QUIZ HISTORY ]\n";
             cout << "+==============================================================+\n";
-
-            ifstream hist("data/quiz_history.txt");
-            if (!hist) {
-                cout << "|   No quiz history file found yet.                           |\n";
-                cout << "+==============================================================+\n";
-                pauseScreen();
-                continue;
-            }
-
-            string line;
-            int count = 0;
-
-            while (getline(hist, line)) {
-                if (line.empty()) continue;
-
-                string parts[5];
-                int idx = 0;
-                string cur;
-
-                for (char c : line) {
-                    if (c == '|') {
-                        if (idx < 5) parts[idx++] = cur;
-                        cur.clear();
-                    } else {
-                        cur += c;
-                    }
-                }
-                if (idx < 5) parts[idx++] = cur;
-
-                if (idx == 5) {
-                    cout << "|   Attempt #" << (count + 1) << "\n";
-                    cout << "|   Course : " << parts[0] << "\n";
-                    cout << "|   Module : " << parts[1] << "\n";
-                    cout << "|   Score  : " << parts[2] << "/" << parts[3] << "\n";
-                    cout << "|   Status : " << parts[4] << "\n";
-                    cout << "|--------------------------------------------------------------\n";
-                    count++;
-                }
-            }
-
-            if (count == 0) {
-                cout << "|   No quiz history yet.                                      |\n";
-            }
-
+            HistoryNode* head = loadQuizHistory();
+            displayQuizHistory(head);
             cout << "+==============================================================+\n";
+
+            freeQuizHistory(head);
             pauseScreen();
         }
         else if (input == "2") {
@@ -305,8 +349,9 @@ void flowViewHistory() {
 
 // deletes quiz attempt from quiz history file
 void deleteQuizHistoryRecord() {
-    ifstream hist("data/quiz_history.txt");
-    if (!hist) {
+    HistoryNode* head = loadQuizHistory();
+
+    if (head == nullptr) {
         clearScreen();
         printIntro();
         cout << "                   [ DELETE QUIZ HISTORY ]\n";
@@ -317,16 +362,6 @@ void deleteQuizHistoryRecord() {
         return;
     }
 
-    vector<string> records;
-    string line;
-
-    while (getline(hist, line)) {
-        if (!line.empty()) {
-            records.push_back(line);
-        }
-    }
-    hist.close();
-
     string errorMessage = "";
 
     while (true) {
@@ -335,19 +370,19 @@ void deleteQuizHistoryRecord() {
         cout << "                   [ DELETE QUIZ HISTORY ]\n";
         cout << "+==============================================================+\n";
 
-        if (records.empty()) {
-            cout << "|   No history available to delete.                           |\n";
-            cout << "+==============================================================+\n";
-            pauseScreen();
-            return;
-        }
+        int count = 1;
+        HistoryNode* current = head;
 
-        for (size_t i = 0; i < records.size(); i++) {
-            cout << "  [" << i + 1 << "] " << records[i] << "\n";
+        while (current != nullptr) {
+            cout << "  [" << count << "] "
+                 << current->course << " | Module " << current->module
+                 << " | Score " << current->score << "/" << current->total
+                 << " | " << current->status << "\n";
+            current = current->next;
+            count++;
         }
 
         cout << "+==============================================================+\n";
-
 
         if (!errorMessage.empty()) {
             cout << errorMessage << "\n\n";
@@ -368,12 +403,34 @@ void deleteQuizHistoryRecord() {
         if (valid && !input.empty()) {
             int choice = stoi(input);
 
-            if (choice >= 1 && choice <= (int)records.size()) {
-                records.erase(records.begin() + (choice - 1));
+            int totalNodes = count - 1;
+            if (choice >= 1 && choice <= totalNodes) {
+                // node deletion logic
+                if (choice == 1) {
+                    HistoryNode* temp = head;
+                    head = head->next;
+                    delete temp;
+                } else {
+                    HistoryNode* prev = head;
+                    for (int i = 1; i < choice - 1; i++) {
+                        prev = prev->next;
+                    }
 
+                    HistoryNode* temp = prev->next;
+                    prev->next = temp->next;
+                    delete temp;
+                }
+
+                // rewrite file after deletion
                 ofstream out("data/quiz_history.txt");
-                for (const string& rec : records) {
-                    out << rec << "\n";
+                HistoryNode* savePtr = head;
+                while (savePtr != nullptr) {
+                    out << savePtr->course << "|"
+                        << savePtr->module << "|"
+                        << savePtr->score << "|"
+                        << savePtr->total << "|"
+                        << savePtr->status << "\n";
+                    savePtr = savePtr->next;
                 }
                 out.close();
 
@@ -383,10 +440,13 @@ void deleteQuizHistoryRecord() {
                 cout << "+==============================================================+\n";
                 cout << "|   Record deleted successfully.                              |\n";
                 cout << "+==============================================================+\n";
+
+                freeQuizHistory(head);
                 pauseScreen();
                 return;
             }
         }
+
         errorMessage = "Invalid input. Please enter a valid attempt number.";
         pauseScreen();
     }

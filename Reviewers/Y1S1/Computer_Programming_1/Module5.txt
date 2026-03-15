@@ -1,0 +1,86 @@
+================================================================================
+MODULE 5: PROGRAM CONTROL STRUCTURES (CONDITIONAL)
+================================================================================
+
+1. FLOW OF CONTROL
+--------------------------------------------------------------------------------
+
+- DEFINITION: The order in which a program's statements are executed.
+- THE FOUR BASIC STRUCTURES:
+    1. SEQUENTIAL: The default flow; statements run one after another.
+    2. SELECTION: Choosing a path based on a condition.
+    3. REPETITION: Repeating a block of code (Looping).
+    4. INVOCATION: Calling a function or a specific sequence of instructions.
+
+2. RELATIONAL EXPRESSIONS (CONDITIONS)
+--------------------------------------------------------------------------------
+
+- Relational expressions evaluate to either TRUE (1) or FALSE (0).
+- They use relational operators: ==, !=, <, >, <=, >=.
+- In C++, any non-zero value is treated as TRUE, and zero is treated as FALSE.
+
+3. SELECTION STATEMENTS (IF, IF-ELSE)
+--------------------------------------------------------------------------------
+
+A. ONE-WAY SELECTION (if statement):
+- Executes a block of code only if the condition is true.
+- SYNTAX: 
+    if (condition) {
+        // code to execute
+    }
+
+
+
+[Image of if statement flowchart]
+
+
+B. TWO-WAY SELECTION (if-else statement):
+- Provides an alternative path if the condition is false.
+- SYNTAX:
+    if (condition) {
+        // if true
+    } else {
+        // if false
+    }
+
+
+
+C. MULTI-WAY SELECTION (if-else if ladder):
+- Used to test multiple conditions in sequence.
+
+4. THE SWITCH CONTROL STRUCTURE
+--------------------------------------------------------------------------------
+
+- PURPOSE: An alternative to long if-else if ladders when comparing a single 
+  variable against multiple constant values (usually char or int).
+- KEY COMPONENTS:
+    * switch(expression): The variable being evaluated.
+    * case constant:: A specific value to check for.
+    * break;: Prevents "fall-through" (execution continuing into the next case).
+    * default:: Executed if none of the cases match (similar to 'else').
+
+
+
+- LIMITATION: The switch expression must evaluate to an integer or character; 
+  it cannot handle floating-point numbers (float/double) or ranges (e.g., x > 10).
+
+5. NESTED CONTROL STRUCTURES
+--------------------------------------------------------------------------------
+
+- A control structure (like an 'if' statement) can be placed inside another 
+  control structure.
+- Proper indentation is critical for readability to show which 'else' belongs 
+  to which 'if'.
+
+6. COMMON PITFALLS
+--------------------------------------------------------------------------------
+
+- ASSIGNMENT VS. EQUALITY: Using '=' (assignment) instead of '==' (equality) 
+  inside a condition is a logical error.
+- MISSING BREAK: Forgetting a 'break' in a switch statement will cause the 
+  program to execute all subsequent cases until a break or the end of the 
+  switch is reached.
+- SEMICOLON AFTER IF: Writing 'if (condition);' will terminate the statement 
+  immediately, making the subsequent block execute regardless of the condition.
+
+================================================================================

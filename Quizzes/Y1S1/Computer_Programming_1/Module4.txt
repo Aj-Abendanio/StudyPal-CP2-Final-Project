@@ -1,0 +1,10 @@
+Which object displays output in C++?|cin|cout|printf|display|B
+Which operator sends data to output?|>>|<<|==|&&|B
+Which object receives input?|cout|cin|scan|read|B
+Which symbol moves to a new line?|endl|\n|Both A and B|tab|C
+Which escape sequence creates a tab space?|\n|\t|\\|\a|B
+Which library contains formatting tools?|<iomanip>|<math>|<string>|<stdio>|A
+Which function calculates powers?|sqrt|pow|abs|floor|B
+Which function finds square root?|pow|sqrt|ceil|round|B
+Which function rounds down?|floor|ceil|round|sqrt|A
+Which function reads full sentences?|cin >>|getline()|read()|scan()|B

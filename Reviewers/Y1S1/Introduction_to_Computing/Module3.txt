@@ -1,0 +1,79 @@
+================================================================================
+MODULE 3: HARDWARE COMPONENTS OF PERSONAL COMPUTER
+================================================================================
+
+1. THE SYSTEM UNIT
+--------------------------------------------------------------------------------
+
+- DEFINITION: The case that contains the electronic components of the computer 
+  used to process data. (Note: It is NOT the CPU itself, but the container).
+- COMPONENTS: Includes the Motherboard, CPU, Memory, Adapter Cards, Ports, 
+  Drive Bays, and Power Supply.
+- FORM FACTORS: Varies across desktops, laptops, and mobile devices.
+
+2. THE MOTHERBOARD
+--------------------------------------------------------------------------------
+
+- The main circuit board of the system unit.
+- Contains various CHIPS (small pieces of semi-conducting material, usually 
+  silicon, on which integrated circuits are etched).
+- KEY SLOTS:
+    * PROCESSOR SLOT: For the CPU.
+    * MEMORY SLOTS: For RAM modules.
+    * ADAPTER SLOTS: For expansion cards (video, sound, network).
+
+3. THE CENTRAL PROCESSING UNIT (CPU)
+--------------------------------------------------------------------------------
+
+- Interprets and carries out basic instructions that operate the computer.
+- TWO MAIN COMPONENTS:
+    1. CONTROL UNIT (CU): Directs and coordinates most computer operations.
+    2. ARITHMETIC LOGIC UNIT (ALU): Performs arithmetic (math) and logical 
+       (comparison) operations.
+
+- THE MACHINE CYCLE:
+    1. FETCH: Obtain instruction from memory.
+    2. DECODE: Translate instruction into computer commands.
+    3. EXECUTE: Carry out the commands.
+    4. STORE: Write results to memory.
+
+4. MEMORY AND STORAGE
+--------------------------------------------------------------------------------
+
+- RAM (Random Access Memory): Volatile memory that stores data and instructions 
+  temporarily while the computer is running.
+- ROM (Read-Only Memory): Non-volatile memory containing permanent data and 
+  instructions.
+- FLASH MEMORY: Non-volatile memory that can be erased electronically and 
+  rewritten (e.g., USB drives, Memory Cards, SSDs).
+
+STORAGE DEVICES:
+- HARD DISK DRIVES (HDD): Magnetic storage for high-capacity data.
+- SOLID STATE DRIVES (SSD): Faster, flash-based storage with no moving parts.
+- OPTICAL DISCS: CDs, DVDs, and Blu-ray discs.
+
+5. INPUT AND OUTPUT (I/O) DEVICES
+--------------------------------------------------------------------------------
+
+INPUT DEVICES (Data Entry):
+- KEYBOARD: Used to type text and commands.
+- POINTING DEVICES: Mouse, Trackball, Touchpad, or Joysticks.
+- SCANNERS: Converts paper documents into digital dots the computer understands.
+- DIGITAL CAMERA: Captures electronic pictures.
+- MICROPHONE: Inputs sound and voice commands.
+
+OUTPUT DEVICES (Information Delivery):
+- MONITOR: Displays "Soft Copy" (information disappears when power is off).
+- PRINTER: Produces "Hard Copy" (printed on paper).
+- SPEAKERS: Outputs audio and sound.
+
+6. PORTS AND CONNECTORS
+--------------------------------------------------------------------------------
+
+- PORT: The point at which a peripheral attaches to or communicates with a 
+  system unit.
+- CONNECTOR: Joins a cable to a port (e.g., USB, HDMI, VGA).
+- BAYS: Openings in the system unit used to install additional equipment, 
+  typically drive bays for HDDs or SSDs.
+
+================================================================================

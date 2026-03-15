@@ -1,0 +1,10 @@
+What does HCI stand for?|Human Computer Interaction|Human Control Interface|Hardware Computer Interaction|Human Coding Interface|A
+What is the main goal of HCI?|Make computers harder to use|Improve interaction between humans and computers|Replace humans with computers|Increase hardware speed|B
+When did HCI emerge as a field?|1960s|1970s|1980s|1990s|C
+Which discipline studies human thinking and memory?|Cognitive Science|Mechanical Engineering|Accounting|Physics|A
+Which field studies human capabilities for design?|Ergonomics|Biology|Astronomy|Networking|A
+Who created the Sketchpad program?|Ivan Sutherland|Bill Gates|Steve Jobs|Alan Turing|A
+Who introduced the computer mouse?|Douglas Engelbart|Mark Zuckerberg|Dennis Ritchie|Tim Berners-Lee|A
+Which research lab developed the ALTO computer?|IBM Labs|Xerox PARC|Intel Labs|Microsoft Research|B
+What design concept shows how an object should be used?|Affordance|Constraint|Mapping|Feedback|A
+What tells users where an action should occur?|Signifier|Mapping|Affordance|Constraint|A

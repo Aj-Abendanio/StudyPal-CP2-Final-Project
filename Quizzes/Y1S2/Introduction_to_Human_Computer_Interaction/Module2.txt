@@ -1,0 +1,10 @@
+Who introduced the six design principles?|Donald Norman|Bill Gates|Donald Trump|Steve Jobs|A
+What does good design mean?|Hard to use|Self-explanatory and practical|Expensive|Complex|B
+What principle shows system status to users?|Visibility|Mapping|Constraint|Consistency|A
+What principle informs users about actions?|Feedback|Visibility|Consistency|Constraint|A
+What principle limits actions to prevent errors?|Constraint|Mapping|Visibility|Affordance|A
+What principle links controls to effects?|Mapping|Visibility|Consistency|Constraint|A
+What principle ensures similar design across systems?|Consistency|Visibility|Feedback|Mapping|A
+What concept shows how to use an object?|Affordance|Constraint|Mapping|Feedback|A
+What is the user’s understanding of a system?|Mental Model|System Model|Computer Model|Input Model|A
+What should match the user’s mental model?|Design model|System image|Program code|Hardware|B

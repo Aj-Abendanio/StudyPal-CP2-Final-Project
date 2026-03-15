@@ -1,0 +1,10 @@
+Why do humans make errors?|Cognitive limitations|Hardware problems|Programming bugs|Network failures|A
+What error occurs with wrong goal?|Mistake|Slip|Crash|Failure|A
+What error occurs with correct goal but wrong action?|Slip|Mistake|Bug|Error code|A
+What slip happens when a common action replaces intended action?|Capture error|Mode error|Data error|Logic error|A
+What slip occurs when objects look similar?|Description error|Mode error|Capture error|Memory error|A
+What error happens when new information interferes with old memory?|Retroactive interference|Mode error|Slip error|Data error|A
+What prevents users from making errors?|Forcing functions|Random functions|Hidden controls|Complex design|A
+What asks the user before deleting data?|Confirmation dialog|System crash|Keyboard input|Error code|A
+What allows users to recover from mistakes?|Undo/Redo|Restart|Shutdown|Reinstall|A
+What should error messages avoid?|Blaming the user|Explaining problems|Giving solutions|Helping users|A

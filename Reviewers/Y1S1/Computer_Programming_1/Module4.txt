@@ -1,0 +1,66 @@
+================================================================================
+MODULE 4: C++ BASIC INPUT/OUTPUT AND MATH FUNCTIONS
+================================================================================
+
+1. BASIC I/O OVERVIEW
+--------------------------------------------------------------------------------
+
+C++ uses "streams" to handle input and output. These are defined in the 
+<iostream> header file.
+
+- STANDARD OUTPUT (cout): Used to display data to the screen. 
+  * Operator: << (Insertion or "put to" operator).
+- STANDARD INPUT (cin): Used to read data from the keyboard.
+  * Operator: >> (Extraction or "get from" operator).
+
+2. ESCAPE SEQUENCES AND MANIPULATORS
+--------------------------------------------------------------------------------
+
+Used to format how text appears in the terminal:
+- \n or endl: Moves the cursor to a new line.
+- \t: Horizontal tab (creates a wide space).
+- \": Displays a double quote.
+- \\: Displays a backslash.
+
+FROM <iomanip> LIBRARY:
+- fixed: Displays floating-point numbers in fixed-point notation.
+- setprecision(n): Sets the number of decimal places to be displayed.
+  * Example: cout << fixed << setprecision(2) << 3.14159; // Outputs: 3.14
+
+3. MATHEMATICAL LIBRARY FUNCTIONS (<cmath>)
+--------------------------------------------------------------------------------
+
+To use advanced math, you must include the <cmath> header. These functions 
+usually return a double or float.
+
+POWER AND ROOTS:
+- pow(base, exponent): Calculates powers (e.g., pow(2, 3) is 8).
+- sqrt(x): Calculates the square root of x.
+
+ROUNDING FUNCTIONS:
+- floor(x): Rounds DOWN to the nearest integer (e.g., 2.9 -> 2.0).
+- ceil(x): Rounds UP to the nearest integer (e.g., 2.1 -> 3.0).
+- round(x): Rounds to the NEAREST integer (e.g., 2.5 -> 3.0).
+- trunc(x): Removes the decimal portion (e.g., -2.8 -> -2.0).
+
+OTHER FUNCTIONS:
+- abs(x): Returns the absolute value of an integer.
+- fmod(x, y): Returns the remainder of floating-point division.
+
+4. C++ STRING INPUT
+--------------------------------------------------------------------------------
+
+- cin >> variable;: Reads a single word. It stops at the first whitespace.
+- getline(cin, variable);: Reads an entire line of text, including spaces.
+
+5. PROGRAMMING STYLE AND TABS
+--------------------------------------------------------------------------------
+
+- INDENTATION: Use tabs or spaces to align code inside braces { }. It makes 
+  the code readable but does not affect the execution.
+- COMMENTS:
+    * // Single line comment
+    * /* Multi-line 
+         comment */
+
+================================================================================
