@@ -9,15 +9,19 @@ using namespace std;
 
 // name validator (makes sure inputs are letters only)
 bool isValidName(const string& name) {
-    if (name.empty()) return false; // rejects spaces
+    if (name.empty()) return false;
+    bool hasLetter = false; // checks if there is at least one real letter
 
-    // checks all characters in string
     for (char c : name) {
-        // rejects anything thats not letters or spaces
-        if (!isalpha(static_cast<unsigned char>(c)) && c != ' ')
-            return false;
+        if (isalpha(static_cast<unsigned char>(c))) {
+            hasLetter = true;
+        }
+        else if (c != ' ') {
+            return false; // rejects numbers and special characters
+        }
     }
-    return true;
+
+    return hasLetter; // rejects inputs that are only spaces
 }
 
 // function for user info inputs
