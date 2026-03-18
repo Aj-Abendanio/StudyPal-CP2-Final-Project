@@ -9,7 +9,7 @@
 using namespace std;
 
 //counts the valid quiz lines first
-static int countQuizLines(const string& path) {
+int countQuizLines(const string& path) {
     ifstream file(path);
 
     // if file cant be open it returns 0 agad
@@ -27,7 +27,7 @@ static int countQuizLines(const string& path) {
 }
 
 //split one line using "|" then stores in QuizQ struct
-static bool parseQuizLine(const string& line, QuizQ& out) {
+bool parseQuizLine(const string& line, QuizQ& out) {
     string parts[6];
     int idx = 0;
     string cur;

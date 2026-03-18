@@ -37,6 +37,7 @@ vector<CourseInfo> getCourses(int year, int sem) {
         };
     }
 
+    // returns empty list if not available
     return {};
 }
 
@@ -79,6 +80,7 @@ int selectCourse(const User& u, const vector<CourseInfo>& courses) {
         cout << "                  [ SELECT YOUR COURSE ]" << endl;
         cout << "  +----------------------------------------------------------+" << endl;
 
+         // if no courses found
         if (courses.empty()) {
             cout << "  |   (No courses available for this year/semester yet)      |" << endl;
             cout << "  +----------------------------------------------------------+" << endl;
@@ -86,6 +88,7 @@ int selectCourse(const User& u, const vector<CourseInfo>& courses) {
             return -1;
         }
 
+        // prints all courses dynamicaly
         for (size_t i = 0; i < courses.size(); i++) {
             cout << "  |   [" << (i + 1) << "] " << courses[i].name << endl;
         }
@@ -101,6 +104,7 @@ int selectCourse(const User& u, const vector<CourseInfo>& courses) {
         string input;
         getline(cin, input);
 
+        // checks if input is valid number within range
         if (input.length() == 1 && input[0] >= '0' && input[0] <= char('0' + courses.size())) {
             int choice = input[0] - '0';
             if (choice == 0) return -1;
@@ -125,6 +129,7 @@ int selectModule(const CourseInfo& course) {
         cout << "  |   Course: " << course.name << endl;
         cout << "  |   ------------------------------------------------------ |" << endl;
 
+        // prints modules (1–5)
         for (const auto& m : course.modules) {
             cout << "  |   [" << m.number << "] " << m.title << endl;
         }
@@ -140,6 +145,7 @@ int selectModule(const CourseInfo& course) {
         string input;
         getline(cin, input);
 
+        // validates module input
         if (input.length() == 1 && input[0] >= '0' && input[0] <= char('0' + course.modules.size())) {
             int choice = input[0] - '0';
             if (choice == 0) return -1;
@@ -172,6 +178,7 @@ void flowStartStudying(const User& u) {
         cout << "Module : " << moduleNo << "\n";
         cout << "------------------------------------------------------------\n\n";
 
+        // loads and prints reviewer from file
         string path = reviewerPath(u.yearLevel, u.semester, courses[cIdx].name, moduleNo);
         printReviewerFromFile(path);
 
@@ -185,6 +192,7 @@ void flowStartStudying(const User& u) {
         string input;
         getline(cin, input);
 
+        // validates Q or B only
         if (input.length() == 1) {
             char ch = toupper(static_cast<unsigned char>(input[0]));
 
@@ -206,12 +214,16 @@ void flowStartStudying(const User& u) {
 // quiz flow: select course, select module, start quiz
 void flowTakeQuiz(const User& u) {
     auto courses = getCourses(u.yearLevel, u.semester);
+
+    // let user pick a course
     int cIdx = selectCourse(u, courses);
     if (cIdx < 0) return;
 
+    // for module
     int moduleNo = selectModule(courses[cIdx]);
     if (moduleNo < 0) return;
 
+    // builds path to quiz file and then runs quiz
     string qFile = quizPath(u.yearLevel, u.semester, courses[cIdx].name, moduleNo);
     runQuiz10(courses[cIdx].name, moduleNo, qFile);
 }
@@ -221,11 +233,13 @@ HistoryNode* loadQuizHistory() {
     ifstream hist("data/quiz_history.txt");
     if (!hist) return nullptr;
 
+    // initialize linked list pointers
     HistoryNode* head = nullptr;
     HistoryNode* tail = nullptr;
 
     string line;
 
+     // reads file line by line
     while (getline(hist, line)) {
         if (line.empty()) continue;
 
@@ -243,8 +257,11 @@ HistoryNode* loadQuizHistory() {
         }
         if (idx < 5) parts[idx++] = cur;
 
+        // if complete data is read
         if (idx == 5) {
-            HistoryNode* newNode = new HistoryNode;
+            HistoryNode* newNode = new HistoryNode; // creates new node
+
+            // assign values from file
             newNode->course = parts[0];
             newNode->module = stoi(parts[1]);
             newNode->score = stoi(parts[2]);
@@ -252,11 +269,12 @@ HistoryNode* loadQuizHistory() {
             newNode->status = parts[4];
             newNode->next = nullptr;
 
+            // insert node into linked list
             if (head == nullptr) {
-                head = newNode;
+                head = newNode; // first node basically becomes the head
                 tail = newNode;
             } else {
-                tail->next = newNode;
+                tail->next = newNode; // append to end
                 tail = newNode;
             }
         }
@@ -274,8 +292,9 @@ void displayQuizHistory(HistoryNode* head) {
     }
 
     int count = 1;
-    HistoryNode* current = head;
+    HistoryNode* current = head; // start from head
 
+    // traverse until nullptr
     while (current != nullptr) {
         cout << "|   Attempt #" << count << "\n";
         cout << "|   Course : " << current->course << "\n";
@@ -284,6 +303,7 @@ void displayQuizHistory(HistoryNode* head) {
         cout << "|   Status : " << current->status << "\n";
         cout << "|--------------------------------------------------------------\n";
 
+        // move to next node
         current = current->next;
         count++;
     }
@@ -293,10 +313,11 @@ void displayQuizHistory(HistoryNode* head) {
 void freeQuizHistory(HistoryNode* head) {
     HistoryNode* current = head;
 
+    // loop until all nodes deleted
     while (current != nullptr) {
-        HistoryNode* temp = current;
-        current = current->next;
-        delete temp;
+        HistoryNode* temp = current; // stores current node
+        current = current->next; // moves forwar
+        delete temp; // free memory
     }
 }
 
@@ -323,6 +344,7 @@ void flowViewHistory() {
         string input;
         getline(cin, input);
 
+        // view history
         if (input == "0") return;
 
         if (input == "1") {
@@ -349,6 +371,7 @@ void flowViewHistory() {
 
 // deletes quiz attempt from quiz history file
 void deleteQuizHistoryRecord() {
+    // load history into linked list
     HistoryNode* head = loadQuizHistory();
 
     if (head == nullptr) {
@@ -373,6 +396,7 @@ void deleteQuizHistoryRecord() {
         int count = 1;
         HistoryNode* current = head;
 
+        // display all records with numbering
         while (current != nullptr) {
             cout << "  [" << count << "] "
                  << current->course << " | Module " << current->module
@@ -392,6 +416,7 @@ void deleteQuizHistoryRecord() {
         string input;
         getline(cin, input);
 
+        // check if input is numeric
         bool valid = true;
         for (char c : input) {
             if (!isdigit(static_cast<unsigned char>(c))) {
@@ -404,18 +429,21 @@ void deleteQuizHistoryRecord() {
             int choice = stoi(input);
 
             int totalNodes = count - 1;
+
+            // valid range check
             if (choice >= 1 && choice <= totalNodes) {
-                // node deletion logic
+                // delete node logic
                 if (choice == 1) {
                     HistoryNode* temp = head;
                     head = head->next;
                     delete temp;
                 } else {
+                    // find node before target
                     HistoryNode* prev = head;
                     for (int i = 1; i < choice - 1; i++) {
                         prev = prev->next;
                     }
-
+                    // remove node
                     HistoryNode* temp = prev->next;
                     prev->next = temp->next;
                     delete temp;
@@ -468,6 +496,7 @@ void runMainMenu(const User& u) {
         string input;
         getline(cin, input);
 
+        // validate input (1–4 only)
         if (input.length() == 1 && input[0] >= '1' && input[0] <= '4') {
             int choice = input[0] - '0';
 
@@ -485,6 +514,7 @@ void runMainMenu(const User& u) {
     }
     clearScreen();
     printIntro();
+    // bye message
     cout << "------------------------------------------------------------\n";
     cout << "               Thank you for using StudyPal!\n";
     cout << "                    Good luck, Tamaraw!\n";
