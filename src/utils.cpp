@@ -107,9 +107,3 @@ string sanitizeName(const string& s) {
     }
     return result;
 }
-
-// checks if file exists
-bool fileExists(const string& path) {
-    ifstream f(path);
-    return f.good();
-}

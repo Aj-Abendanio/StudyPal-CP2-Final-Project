@@ -2,13 +2,13 @@
 
 Authors: Angelika Abendanio, Krisma Rempis, Raffaele Tababan
 
-StudyPal is a console-based C++ application developed as a final project for Computer Programming 2. The program is designed to assist FEU Tech Computer Science (AI) students in reviewing course modules and testing their understanding through structured quiz challenges.
+StudyPal is a console based C++ application developed as a final project for Computer Programming 2. The program is designed to assist FEU Tech Computer Science (AI) students in reviewing course modules and testing their understanding through structured quiz challenges.
 
-The system allows users to select their year level, semester, course, and module. After selecting a module, users can view reviewer materials directly in the console and optionally take a quiz consisting of randomized multiple-choice questions.
+The system allows the users to select their year level, semester, course, and module. After selecting a module, users can view reviewer materials directly in the console and optionally take a quiz consisting of randomized multiple choice questions.
 
 The program also maintains a record of quiz attempts, allowing users to review and manage their performance history.
 
----
+
 
 ## Overview
 
@@ -20,7 +20,7 @@ StudyPal focuses on three core subjects:
 
 Each subject contains five modules, with corresponding reviewer materials and quizzes stored externally in text files.
 
----
+
 
 ## Main Features
 
@@ -32,7 +32,7 @@ Each subject contains five modules, with corresponding reviewer materials and qu
 - Deletion of specific quiz records  
 - Consistent input validation and error handling across the program  
 
----
+
 
 ## Programming Concepts Demonstrated
 
@@ -47,34 +47,47 @@ This project applies key concepts from Computer Programming 2, including:
 - String processing and input validation  
 - Console-based user interface design  
 
----
+
 
 ## Project Structure
 StudyPal-CP2-Final-Project/
-├── src/ # Source code files (.cpp)
-├── headers/ # Header files (.h)
-├── Reviewers/ # Module reviewer text files
-├── Quizzes/ # Quiz question text files
-├── data/ # Quiz history storage
-└── README.md
+- src/ # Source code files (.cpp)
+- headers/ # Header files (.h)
+- Reviewers/ # Module reviewer text files
+- Quizzes/ # Quiz question text files
+- data/ # Quiz history storage
+- README.md
 
 
----
 
 ## How to Run
 
-Compile the program using:
+1. Make sure that the entire project is stored locally in your computer.
+
+2. Compile the program:
+Using g++:
 g++ src/main.cpp src/module.cpp src/quiz.cpp src/studypal.cpp src/user.cpp src/utils.cpp -I headers -o studypal.exe
 
-Run the program:
-.\studypal
+Using Clang:
+clang++ src/main.cpp src/module.cpp src/quiz.cpp src/studypal.cpp src/user.cpp src/utils.cpp -I headers -o studypal
+
+Using Visual Studio (MSVC)
+- Open the project folder in Visual Studio.
+- Add all .cpp files into a project.
+- Make sure the headers/ folder is included in Additional Include Directories.
+- Build the solution (Ctrl + Shift + B).
+
+3. Run the program:
+Windows: .\studypal or studypal
+Linux/Mac: ./studypal
 
 
----
 
 ## Notes
 
-- The program is designed for single-user use only  
+- Make sure the data/, Reviewers/, and Quizzes/ folders are in the correct directory.
+- If files are missing, the program will display an error message showing the expected file path.
+- The program is designed for single user only  
 - Quiz history is stored locally in a text file  
 - File paths are generated dynamically based on user input  
 - Folder and file naming must follow the expected structure for proper functionality  

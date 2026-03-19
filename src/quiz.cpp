@@ -27,6 +27,7 @@ int countQuizLines(const string& path) {
 }
 
 //split one line using "|" then stores in QuizQ struct
+// Format: Question | Choice A | Choice B | Choice C | Choice D | Answer
 bool parseQuizLine(const string& line, QuizQ& out) {
     string parts[6];
     int idx = 0;
