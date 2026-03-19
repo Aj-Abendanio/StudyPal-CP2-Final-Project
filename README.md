@@ -45,7 +45,7 @@ This project applies key concepts from Computer Programming 2, including:
 - Linked lists (used for quiz history management)  
 - File handling using `fstream`  
 - String processing and input validation  
-- Console-based user interface design  
+- Console based user interface design  
 
 
 
@@ -65,11 +65,12 @@ StudyPal-CP2-Final-Project/
 1. Make sure that the entire project is stored locally in your computer.
 
 2. Compile the program:
-Using g++:
-g++ src/main.cpp src/module.cpp src/quiz.cpp src/studypal.cpp src/user.cpp src/utils.cpp -I headers -o studypal.exe
+   
+  Using g++:
+  g++ src/main.cpp src/module.cpp src/quiz.cpp src/studypal.cpp src/user.cpp src/utils.cpp -I headers -o studypal.exe
 
 Using Clang:
-clang++ src/main.cpp src/module.cpp src/quiz.cpp src/studypal.cpp src/user.cpp src/utils.cpp -I headers -o studypal
+  clang++ src/main.cpp src/module.cpp src/quiz.cpp src/studypal.cpp src/user.cpp src/utils.cpp -I headers -o studypal
 
 Using Visual Studio (MSVC)
 - Open the project folder in Visual Studio.
